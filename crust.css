@@ -1,0 +1,303 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: black
+  }
+  
+.navbar{
+background-color: black;
+color: blanchedalmond;
+height: 40px;
+}
+.nav1 ,.nav2, .nav3 ,.nav4{
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.nav5{
+    font-size: 30px;
+    margin-left: 390px;
+   
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+.classic-container{
+    margin-top: 0px;
+      display: flex;
+      height: 300px;
+      background-image: url('https://i.pinimg.com/originals/e7/88/03/e78803dc15653fb18a8fb2931069bb10.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      margin-bottom: 50px;
+      
+      
+  }
+  .classic{
+      font-size: 90px;
+      font-weight: bolder;
+      text-align: center;
+      margin-left: 300px;
+  }
+  
+
+
+
+
+.class-menu-container{margin:20px;
+  display:flex;
+    height: 700px;
+    
+}
+  .card {
+     
+    position: relative;
+    width: 300px;
+    height: 350px;
+  margin-left: 30px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .face1 {
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+      .regular {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .thin {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .multigrain {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .whole {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .cheese {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      .face2 {
+        transition: 0.5s;
+        text-decoration: none;
+      }
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 10em;
+          color: black;
+          transition: 0.5s;
+         
+          z-index: 10;
+      
+        }
+      
+    a{
+        text-decoration: none;
+    }
+  
+
+  .card:hover .face.face2 {
+    height: 60px;
+  }
+
+    h2 {
+      font-size: 2em;
+      
+    }
+  
+
+  .card:nth-child(1) .face.face2 {
+    background-image: url('https://blog.papajohns.co.uk/wp-content/uploads/2017/09/original-crust.jpg');
+    border-radius: 15px;
+  }
+  .card:nth-child(2) .face.face2 {
+    background-image: url('thin crust.jpeg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card:nth-child(3) .face.face2 {
+    background-image: url('multigrain.jpeg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card:nth-child(4) .face.face2 {
+    background-image: url('whole wheat.jpeg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card:nth-child(5) .face.face2 {
+    background-image: url('cheese burst.jpeg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card:nth-child(2),.card:nth-child(4){
+align-self: flex-end;
+margin-bottom: 30px;
+  }
+
+
+  .gourmet-container{
+    margin-top: 40px;
+      display: flex;
+      height: 300px;
+      background-image: url('https://thumbs.gfycat.com/ShimmeringQuestionableChicken-size_restricted.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      margin-bottom: 50px;    
+  }
+  .gourmet{
+      font-size: 90px;
+      font-weight: bolder;
+      text-align: center;
+      margin-left: 300px;
+  }
+  .gour-menu-container{display:flex;
+    margin: 20px;
+    height: 700px;
+    
+}
+  .card1 {
+     
+    position: relative;
+    width: 300px;
+    height: 350px;
+  margin-left: 30px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .face1 {
+      box-sizing: border-box;
+      padding: 20px;
+    }
+    .garlic {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .wood {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .ny {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .pan {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .nea {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .face2 {
+        transition: 0.5s;
+        text-decoration: none;
+      }
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 10em;
+          color: black;
+          transition: 0.5s;
+         
+          z-index: 10;
+      
+        }
+      
+    a{
+        text-decoration: none;
+    }
+  
+
+  .card1:hover .face.face2 {
+    height: 60px;
+  }
+
+    h2 {
+      font-size: 2em;
+      
+    }
+  
+
+  .card1:nth-child(1) .face.face2 {
+    background-image: url('https://www.tasteandtellblog.com/wp-content/uploads/2020/02/White-Pizza-Recipe-1-600x400.jpg');
+    border-radius: 15px;
+  }
+  .card1:nth-child(2) .face.face2 {
+    background-image: url('https://i.guim.co.uk/img/media/1fe38c18cbe7ed3f050750fc7ea8007adc72ad17/0_0_4277_2566/master/4277.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=93a32f4ccc66599440d39a15f38bce8b');
+    border-radius: 15px;
+ 
+    background-size: cover;
+  }
+  .card1:nth-child(3) .face.face2 {
+    background-image: url('https://infatuation.s3.amazonaws.com/media/images/guides/best-pizza-nyc/Leo_12.5.19-16.jpg');
+    border-radius: 15px;
+ 
+    background-size: cover;
+  }
+  .card1:nth-child(4) .face.face2 {
+    background-image: url('https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,w_730/k%2FPhoto%2FRecipes%2F2021-02-how-to-pan-pizza%2F2021_howto_panpizza_lead2_196');
+    border-radius: 15px;
+ 
+    background-size: cover;
+  }
+  .card1:nth-child(5) .face.face2 {
+    background-image: url('https://i.pinimg.com/474x/f0/51/c5/f051c5df8e629d35d53c2dea173e3211.jpg');
+    border-radius: 15px;
+ background-size: cover;
+  }
+  .card1:nth-child(2),.card1:nth-child(4){
+    align-self: flex-end;
+    margin-bottom: 30px;
+      }

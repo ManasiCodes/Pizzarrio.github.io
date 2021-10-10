@@ -1,0 +1,56 @@
+body{
+    background-image: url('https://cdn.freeimage.me/images/161848498545322916.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+  }
+  .main-menu-container{
+      
+     background-image: url('pizza sticker.png');
+     background-repeat: no-repeat;
+     background-size:initial;
+     background-position-x: center;
+     background-position-y: center;
+    height: 590px;
+      display: flex;
+      justify-content: space-around;
+      
+  }
+  .custom{
+    margin: 30px;
+      align-self:flex-start;
+      border: whitesmoke;
+      border-style: solid;
+      padding: 10px;
+     box-shadow: rgba(243, 243, 245, 0.781) 0px 4px 16px, rgba(110, 110, 133, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+     cursor: pointer;
+   }
+.custom:hover{
+  transform: translateY(0) scale(1.1);
+background-color: black;
+  color: aliceblue;
+  transition: ease-in;
+  transition-duration: 0.2s;
+  }
+  .ready{
+    align-self: flex-end;
+    border: whitesmoke;
+    border-style: solid;
+    padding: 10px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  box-shadow: rgba(243, 243, 245, 0.781) 0px 4px 16px, rgba(110, 110, 133, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.ready:hover{
+  transform: translateY(0) scale(1.1);
+background-color: black;
+  color: aliceblue;
+  transition: ease-in;
+  transition-duration: 0.2s;
+  }
+  .a1, .a2{
+        font-size: 40px;  
+text-decoration: none;
+color: aliceblue;
+  }
+  

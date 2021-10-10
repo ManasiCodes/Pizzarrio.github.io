@@ -1,0 +1,238 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: black
+  }
+.navbar{
+background-color: black;
+color: blanchedalmond;
+height: 40px;
+}
+.nav1 ,.nav2, .nav3 ,.nav4{
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.nav5{
+    font-size: 30px;
+    margin-left: 390px;
+   
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+.sauce-container{
+    margin-top: 0px;
+      display: flex;
+      height: 300px;
+      background-image: url('https://c.tenor.com/rmpWu_XJ0ZwAAAAC/adding-generous-layer-of-sauce-joshua-weissman.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      margin-bottom: 50px;
+      
+      
+  }
+  .sauce{
+      font-size: 90px;
+      font-weight: bolder;
+      text-align: center;
+      margin-left: 500px;
+      color: beige;
+  }
+  .line{
+    color: antiquewhite;
+    
+  }
+
+  .sauce-menu-container1{margin-left:100px;
+display: flex;
+      height: 300px;
+      margin-bottom: 30px;
+      
+  }
+  .sauce-menu-container2{margin-top:80px;
+    margin-left: 100px;
+    display: flex;
+          height: 400px;
+          
+      }
+    .card {
+       
+      position: relative;
+      width: 300px;
+      height: 350px;
+    margin-left: 30px;
+      background: #000;
+      border-radius: 15px;
+      box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      
+    }
+    .card1 {
+       
+        position: relative;
+        width: 300px;
+        height: 350px;
+      margin-left: 30px;
+        background: #000;
+        border-radius: 15px;
+        box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        
+      }
+    .face {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+      .face1 {
+        box-sizing: border-box;
+        padding: 20px;
+      }
+  
+        .tomato {
+          background-color: #fffc00;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .rom {
+          background-color: #fffc00;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .bbq {
+          background-color: #fffc00;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .mari {
+          background-color: #fffc00;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .pesto {
+          background-color: #fffc00;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .jain {
+            background-color: #fffc00;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        
+          .face {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .face1 {
+            box-sizing: border-box;
+            padding: 20px;
+          }
+        .face2 {
+          transition: 0.5s;
+          text-decoration: none;
+        }
+          h2 {
+            margin: 0;
+            padding: 0;
+            font-size: 10em;
+            color: black;
+            transition: 0.5s;
+           
+            z-index: 10;
+        
+          }
+        
+      a{
+          text-decoration: none;
+      }
+    
+  
+    .card1:hover .face.face2 {
+      height: 60px;
+    }
+  
+      h2 {
+        font-size: 2em;
+        
+      }
+      .face2 {
+        transition: 0.5s;
+        text-decoration: none;
+      }
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 10em;
+          color: black;
+          transition: 0.5s;
+         
+          z-index: 10;
+      
+        }
+      
+    a{
+        text-decoration: none;
+    }
+  
+
+  .card:hover .face.face2 {
+    height: 60px;
+  }
+
+    h2 {
+      font-size: 2em;
+      
+    }
+    
+  
+    .card:nth-child(1) .face.face2 {
+      background-image: url('tomato.jpg');
+      border-radius: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .card:nth-child(2) .face.face2 {
+      background-image: url('romesco.jpg');
+      background-size: cover;
+      border-radius: 15px;
+    }
+    .card:nth-child(3) .face.face2 {
+      background-image: url('bbq sauce.jpg');
+      background-size: cover;
+      border-radius: 15px;
+    }
+    .card1:nth-child(1) .face.face2 {
+      background-image: url('Marinara-sauce1.jpg');
+      background-size: cover;
+      border-radius: 15px;
+    }
+    .card1:nth-child(2) .face.face2 {
+      background-image: url('Homemade-pesto-sauce-5.jpg');
+      background-size: cover;
+      border-radius: 15px;
+    }
+    .card1:nth-child(3) .face.face2 {
+        background-image: url('https://i.ytimg.com/vi/MSXddLaC-Ok/sddefault.jpg');
+        background-size: cover;
+        border-radius: 15px;
+      }
+    
