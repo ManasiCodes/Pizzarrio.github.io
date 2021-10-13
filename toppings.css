@@ -284,7 +284,7 @@ width: 100%;
         background-size: cover;
       }
       .card2:nth-child(2) .face.face2 {
-        background-image: url('https://previews.123rf.com/images/tobi/tobi1608/tobi160800246/61578869-bowl-of-sliced-fresh-mushrooms.jpg');
+        background-image: url('https://www.crushpixel.com/big-static18/preview4/sliced-whole-mushrooms-bowl-2883684.jpg');
         border-radius: 15px;
         background-repeat: no-repeat;
         background-size: cover;
@@ -301,3 +301,283 @@ width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
       }
+
+
+
+
+
+      .nonveg-container{
+        margin-top: 70px;
+          display: flex;
+          height: 345px;
+          background-image: url('https://i2.wp.com/klfoodie.com/wp-content/uploads/2018/09/g9pbsQ7.gif?fit=646%2C364&ssl=1');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position-x: center;
+          background-position-y: center;
+          margin-bottom: 50px;
+        
+          
+          }
+      .nonveggie{
+          font-size: 100px;
+          font-weight: bolder;
+          text-align: center;
+          margin-top: 100px;
+          margin-left: 300px;
+          color:black;
+          
+      }
+      .nonveg-menu-container1{margin:100px;
+        margin-top: 0px;
+        display: flex;
+              height: 300px;
+              margin-bottom: 30px;
+              
+              }
+              .nonveg-menu-container2{margin-left:  302px;
+                display: flex;
+                      height: 300px;
+                      margin-bottom: 30px;
+                      margin-top: 20px;
+                      
+                      }
+                      .nonveg-menu-container3{margin:100px;
+                        margin-top: 40px;
+                        display: flex;
+                              height: 300px;
+                              margin-bottom: 0px;
+                              
+                              }
+          .card3 {
+           
+            position: relative;
+            width: 300px;
+            height: 300px;
+          margin-left: 30px;
+            background: #000;
+            border-radius: 15px;
+            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            display: flex;
+           
+            
+          }
+          .card4 {
+           
+            position: relative;
+            width: 300px;
+            height: 350px;
+          margin-left: 30px;
+            background: #000;
+            border-radius: 15px;
+            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            display: flex;
+            
+          }
+          .card5 {
+           
+            position: relative;
+            width: 300px;
+            height: 300px;
+          margin-left: 30px;
+            background: #000;
+            border-radius: 15px;
+            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            display: flex;
+            
+          }
+          
+          .face {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        
+            .face1 {
+              box-sizing: border-box;
+              padding: 20px;
+            width: 100%;
+    
+            }
+        
+              .bbqch {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .keem {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .tikka {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .herb {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .pepp {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .sal {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .saus {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .tan {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .teri {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .peri {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+              .face2 {
+                transition: 0.5s;
+                text-decoration: none;
+              }
+                h2 {
+                  margin: 0;
+                  padding: 0;
+                  font-size: 10em;
+                  color: black;
+                  transition: 0.5s;
+                 
+                  z-index: 10;
+              
+                }
+              
+            a{
+                text-decoration: none;
+            }
+          
+        
+          .card3:hover .face.face2 {
+            height: 60px;
+          }
+          .card4:hover .face.face2 {
+            height: 60px;
+          }
+        
+        
+            h2 {
+              font-size: 2em;
+              
+            }
+            .face2 {
+              transition: 0.5s;
+              text-decoration: none;
+            }
+              h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 10em;
+                color: black;
+                transition: 0.5s;
+               
+                z-index: 10;
+            
+              }
+            
+          a{
+              text-decoration: none;
+          }
+        
+      
+        .card5:hover .face.face2 {
+          height: 60px;
+        }
+      
+          h2 {
+            font-size: 2em;
+            
+          }
+          
+        
+          .card3:nth-child(1) .face.face2 {
+            background-image: url('https://www.simplyrecipes.com/thmb/7KwExJ0ZbVEmlxBaMsgmrBTi9M4=/4667x3111/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-BBQ-Chicken-LEAD-10-03fd9892eaae4ce1a8a3f4c949657cfd.jpg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card3:nth-child(2) .face.face2 {
+            background-image: url('http://www.theterracekitchen.in/wp-content/uploads/2019/07/065.-Chicken-Keema-Pizza_545x545-500x500.png');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card3:nth-child(3) .face.face2 {
+            background-image: url('https://www.eitanbernath.com/wp-content/uploads/2020/10/Chicken-Tikka-LOW-RES-1.jpg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card3:nth-child(4) .face.face2 {
+            background-image: url('https://www.jocooks.com/wp-content/uploads/2016/04/chicken-in-garlic-and-herb-sauce-1-10.jpg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+    
+          .card4:nth-child(1) .face.face2 {
+            background-image: url('https://assets.thehansindia.com/h-upload/2021/09/19/1112620-pepperoni-pizza-day.webp');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card4:nth-child(2) .face.face2 {
+            background-image: url('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/20/0/FNK_Whole-Grain-Salami-Mozzarella-Pizza-Cut_s4x3.jpg.rend.hgtvcom.616.462.suffix/1483737099706.jpeg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card5:nth-child(1) .face.face2 {
+            background-image: url('https://d3gy1em549lxx2.cloudfront.net/62503792-1e68-44cf-bedf-918e9eaf4c82.JPG');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card5:nth-child(2) .face.face2 {
+            background-image: url('https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Tandoori-Chicken-1.jpg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card5:nth-child(3) .face.face2 {
+            background-image: url('https://www.tasteandtellblog.com/wp-content/uploads/2020/10/Teriyaki-Chicken-Pizza-3.jpg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .card5:nth-child(4) .face.face2 {
+            background-image: url('https://foodiesterminal.com/wp-content/uploads/2019/08/just-like-nandos-peri-peri-chicken.jpg');
+            border-radius: 15px;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
