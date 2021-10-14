@@ -1,0 +1,45 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: black
+  }
+.navbar{
+background-color: black;
+color: blanchedalmond;
+height: 40px;
+}
+.nav1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.nav2{
+    font-size: 30px;
+    margin-left: 600px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.ready-container{
+    margin-top: 0px;
+      display: flex;
+      height: 400px;
+      background-image: url('https://reygif.com/media/6/hora-de-la-pizza-88452.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      margin-bottom: 50px;
+      
+      
+  }
+  .ready{
+      font-size: 90px;
+      font-weight: bolder;
+      text-align: center;
+      margin-left: 50px;
+    margin-top: 140px;
+      color: beige;
+  }
