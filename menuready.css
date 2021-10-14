@@ -2,7 +2,7 @@ body{
     background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
     background-repeat: no-repeat;
     background-size: cover;
-  color: black
+  
   }
 .navbar{
 background-color: black;
@@ -43,3 +43,42 @@ height: 40px;
     margin-top: 140px;
       color: beige;
   }
+  .mainbg-container{
+ 
+      height: 100%;
+      margin-left: 100px;
+      margin-right: 100px;
+      background-color: antiquewhite;
+  }
+  h1{
+      font-size: 80px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+      align-self: flex-start;
+  }
+h2{
+    font-size: 40px;
+    text-align: left;
+    align-self: flex-end;
+    margin-right: 500px;
+}
+.img1{
+    margin-top: 25px;
+    margin-right: 20px;
+    cursor: pointer;;
+}
+.img1:hover{
+    transform: translateY(0) scale(1.09);
+}
+.firstcon{
+    border-bottom: black;
+    border-bottom-width: 40px;
+    border-bottom-style: solid;
+}
+.moz{
+    font-size: 75px;
+}
+
+
+
+
