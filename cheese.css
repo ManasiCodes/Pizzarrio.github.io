@@ -1,0 +1,233 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+  color: black
+  }
+.navbar{
+background-color: black;
+color: blanchedalmond;
+height: 40px;
+}
+.nav1 ,.nav2, .nav3 ,.nav4{
+    font-size: 30px;
+    margin: 0px;
+    padding: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.nav5{
+    font-size: 30px;
+    margin-left: 390px;
+   
+    text-decoration: none;
+    color: blanchedalmond;
+
+}
+.cheese-container{
+    margin-top: 0px;
+      display: flex;
+      height: 300px;
+      background-image: url('https://i.pinimg.com/originals/89/0f/18/890f187bbdd200e4c142f8657eed9878.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+      margin-bottom: 50px;
+      
+      
+  }
+  .cheese{
+      font-size: 90px;
+      font-weight: bolder;
+      text-align: center;
+      margin-left: 500px;
+      color: black;
+  }
+  .cheese-menu-container1{margin-left:100px;
+    display: flex;
+          height: 300px;
+          margin-bottom: 30px;
+          
+      }
+      .cheese-menu-container2{margin-top:80px;
+        margin-left: 100px;
+        display: flex;
+              height: 400px;
+              
+          }
+        .card {
+           
+          position: relative;
+          width: 300px;
+          height: 350px;
+        margin-left: 30px;
+          background: #000;
+          border-radius: 15px;
+          box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+          cursor: pointer;
+          
+        }
+        .card1 {
+           
+            position: relative;
+            width: 300px;
+            height: 350px;
+          margin-left: 30px;
+            background: #000;
+            border-radius: 15px;
+            box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            
+          }
+        .face {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+          .face1 {
+            box-sizing: border-box;
+            padding: 20px;
+          }
+      
+            .mozz {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .cheddar{
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .parm {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .goat {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .chip {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .cream {
+                background-color: #fffc00;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              }
+            
+              .face {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+              .face1 {
+                box-sizing: border-box;
+                padding: 20px;
+              }
+            .face2 {
+              transition: 0.5s;
+              text-decoration: none;
+            }
+              h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 10em;
+                color: black;
+                transition: 0.5s;
+               
+                z-index: 10;
+            
+              }
+            
+          a{
+              text-decoration: none;
+          }
+        
+      
+        .card1:hover .face.face2 {
+          height: 60px;
+        }
+      
+          h2 {
+            font-size: 2em;
+            
+          }
+          .face2 {
+            transition: 0.5s;
+            text-decoration: none;
+          }
+            h2 {
+              margin: 0;
+              padding: 0;
+              font-size: 10em;
+              color: black;
+              transition: 0.5s;
+             
+              z-index: 10;
+          
+            }
+          
+        a{
+            text-decoration: none;
+        }
+      
+    
+      .card:hover .face.face2 {
+        height: 60px;
+      }
+    
+        h2 {
+          font-size: 2em;
+          
+        }
+        
+      
+        .card:nth-child(1) .face.face2 {
+          background-image: url('https://www.alphafoodie.com/wp-content/uploads/2020/08/Mozzarella-cheese-500x500.jpeg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card:nth-child(2) .face.face2 {
+          background-image: url('https://www.verywellfit.com/thmb/YJSdLdl4NrxVmL_JaKb2Dktf9PI=/2669x2002/smart/filters:no_upscale()/cheddar-cheese-crop-3fdf5ad3229e4748bbc0b8acdc442dcd.jpg');
+          background-size: cover;
+          border-radius: 15px;
+        }
+        .card:nth-child(3) .face.face2 {
+          background-image: url('https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/3/9/4/89394_parmesan_shutterstock_152999969_630m.jpg');
+          background-size: cover;
+          border-radius: 15px;
+        }
+        .card1:nth-child(1) .face.face2 {
+          background-image: url('https://www.alphafoodie.com/wp-content/uploads/2020/07/Goat-Cheese-Square-Photo.jpeg');
+          background-size: cover;
+          border-radius: 15px;
+        }
+        .card1:nth-child(2) .face.face2 {
+          background-image: url('https://www.renardscheese.com/wp-content/uploads/img_4638-scaled.jpg');
+          background-size: cover;
+          border-radius: 15px;
+        }
+        .card1:nth-child(3) .face.face2 {
+            background-image: url('https://www.spendwithpennies.com/wp-content/uploads/2018/11/Cheese-Sauce-SpendWithPennies-25.jpg');
+            background-size: cover;
+            border-radius: 15px;
+          }
+        
