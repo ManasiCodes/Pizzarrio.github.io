@@ -202,28 +202,28 @@ display: flex;
     
   
     .card:nth-child(1) .face.face2 {
-      background-image: url('tomato.jpg');
+      background-image: url('sauce/tomato.jpg');
       border-radius: 15px;
       background-repeat: no-repeat;
       background-size: cover;
     }
     .card:nth-child(2) .face.face2 {
-      background-image: url('romesco.jpg');
+      background-image: url('sauce/romesco.jpg');
       background-size: cover;
       border-radius: 15px;
     }
     .card:nth-child(3) .face.face2 {
-      background-image: url('bbq sauce.jpg');
+      background-image: url('sauce/bbq sauce.jpg');
       background-size: cover;
       border-radius: 15px;
     }
     .card1:nth-child(1) .face.face2 {
-      background-image: url('Marinara-sauce1.jpg');
+      background-image: url('sauce/Marinara-sauce1.jpg');
       background-size: cover;
       border-radius: 15px;
     }
     .card1:nth-child(2) .face.face2 {
-      background-image: url('Homemade-pesto-sauce-5.jpg');
+      background-image: url('sauce/Homemade-pesto-sauce-5.jpg');
       background-size: cover;
       border-radius: 15px;
     }

@@ -4,7 +4,28 @@ body{
     background-size: cover;
  
   }
-  @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
+.navbar{
+    background-color: black;
+    color: blanchedalmond;
+    height: 40px;
+    }
+    .nav1 ,.nav2, .nav3 ,.nav4{
+        font-size: 30px;
+        margin: 0px;
+        padding: 20px;
+        text-decoration: none;
+        color: blanchedalmond;
+    }
+    .nav5{
+        font-size: 30px;
+        margin-left: 390px;
+       
+        text-decoration: none;
+        color: blanchedalmond;
+    
+    }
+
 body {
   align-items: center;
  
