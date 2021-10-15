@@ -2,27 +2,35 @@ body{
   background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
   background-repeat: no-repeat;
   background-size: cover;
-color: black
+
 }
 .navbar{
     background-color: black;
     color: blanchedalmond;
     height: 40px;
+    align-self: flex-start;
+    display: flex;
+    
     }
     .nav1 ,.nav2, .nav3 ,.nav4{
         font-size: 30px;
         margin: 0px;
-        padding: 20px;
+        padding-right: 20px;
         text-decoration: none;
         color: blanchedalmond;
+       
+       
     }
     .nav5{
         font-size: 30px;
         margin-left: 390px;
-       
+  
         text-decoration: none;
         color: blanchedalmond;
     
+    }
+    .container{
+      display: flex;
     }
     :root {
       

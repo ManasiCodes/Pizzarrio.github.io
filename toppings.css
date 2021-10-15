@@ -10,11 +10,12 @@ background-color: black;
 color: blanchedalmond;
 height: 40px;
 width: 100%;
+display: flex;
 }
 .nav1 ,.nav2, .nav3 ,.nav4{
     font-size: 30px;
     margin: 0px;
-    padding: 20px;
+    padding-right: 20px;
     text-decoration: none;
     color: blanchedalmond;
 }
@@ -125,6 +126,7 @@ width: 100%;
           box-sizing: border-box;
           padding: 20px;
         width: 100%;
+        display: flex;
 
         }
     
@@ -181,6 +183,7 @@ width: 100%;
           .face2 {
             transition: 0.5s;
             text-decoration: none;
+            display: flex;
           }
             h2 {
               margin: 0;
@@ -213,6 +216,7 @@ width: 100%;
         .face2 {
           transition: 0.5s;
           text-decoration: none;
+          display: flex;
         }
           h2 {
             margin: 0;

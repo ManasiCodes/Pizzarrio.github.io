@@ -5,10 +5,10 @@ body{
 
 }
 .container{
-  height: 600px;
+  height: 100%;
   
   display: flex;
-flex-wrap: wrap;
+
   justify-content: space-evenly;
 }
 .end{
@@ -29,7 +29,7 @@ text-decoration: none;
 color: aliceblue;
 }
 .sauce, .cheese{
-  align-self: center;
+ margin-top: 200px;
 }
 .toppimg , .sauceimg, .cheeseimg , .crustimg{
     
