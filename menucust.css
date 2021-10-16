@@ -5,7 +5,7 @@ body{
 
 }
 .container{
-  height: 700px;
+  height: 550px;
   
   display: flex;
 
@@ -29,7 +29,7 @@ text-decoration: none;
 color: aliceblue;
 }
 .sauce, .cheese{
- margin-top: 200px;
+ align-self: flex-end;
 }
 .toppimg , .sauceimg, .cheeseimg , .crustimg{
     
