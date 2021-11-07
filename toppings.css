@@ -19,13 +19,11 @@ display: flex;
     text-decoration: none;
     color: blanchedalmond;
 }
-.nav5{
-    font-size: 30px;
-    margin-left: 390px;
-   
-    text-decoration: none;
-    color: blanchedalmond;
 
+.line{
+  color:blanchedalmond;
+  text-align: center;
+  padding-bottom: 10px;
 }
 .veg-container{
     margin-top: 0px;
@@ -40,6 +38,7 @@ display: flex;
     
       
       }
+  
   .veggie{
       font-size: 100px;
       font-weight: bolder;
@@ -80,7 +79,7 @@ display: flex;
         border-radius: 15px;
         box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        display: flex;
+      display: flex;
        
         
       }
@@ -94,7 +93,7 @@ display: flex;
         border-radius: 15px;
         box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
         cursor: pointer;
-        display: flex;
+     display: flex;
         
       }
       .card2 {
@@ -185,17 +184,7 @@ display: flex;
             text-decoration: none;
             display: flex;
           }
-            h2 {
-              margin: 0;
-              padding: 0;
-              font-size: 10em;
-              color: black;
-              transition: 0.5s;
-             
-              z-index: 10;
-          
-            }
-          
+           
         a{
             text-decoration: none;
         }
@@ -210,7 +199,7 @@ display: flex;
     
     
         h2 {
-          font-size: 2em;
+          font-size: 2px;
           
         }
         .face2 {
@@ -218,16 +207,7 @@ display: flex;
           text-decoration: none;
           display: flex;
         }
-          h2 {
-            margin: 0;
-            padding: 0;
-            font-size: 10em;
-            color: black;
-            transition: 0.5s;
-           
-            z-index: 10;
-        
-          }
+         
         
       a{
           text-decoration: none;
@@ -328,7 +308,7 @@ display: flex;
           font-weight: bolder;
           text-align: center;
           margin-top: 100px;
-          margin-left: 300px;
+          margin-left: 289px;
           color:black;
           
       }
@@ -344,6 +324,7 @@ display: flex;
                       height: 300px;
                       margin-bottom: 30px;
                       margin-top: 20px;
+                      padding-bottom: 70px;
                       
                       }
                       .nonveg-menu-container3{margin:100px;
@@ -585,3 +566,48 @@ display: flex;
             background-repeat: no-repeat;
             background-size: cover;
           }
+          .add{
+            text-decoration: none;
+            font-size: 20px;
+            color: #fffc00;
+            margin-left: 0px;
+            background: black;
+            border: none;
+            cursor: pointer;
+            font-family: 'Gideon Roman', cursive;;
+          }
+          .cart7 , .cart8,.cart9,.cart10,.cart11,.cart12,.cart13,.cart14,.cart15,.cart16,.cart17,.cart18, .cart19,.cart20,.cart21,.cart22,.cart23,.cart24,.cart25,.cart26
+          {
+            color: #fffc00;
+          }
+          .addto{
+            margin-top: 20px;
+            border: mintcream;
+            border-width: medium;
+            border-style: solid;
+            text-align: center;
+            padding-top : 5px;
+            padding-bottom : 5px;
+            
+          }
+          .addto:hover{
+            transform: translateY(0) scale(1.09);
+          }
+        .font{
+          font-size: 30px;
+          text-decoration: none;
+          color: blanchedalmond;
+          display: flex;
+          align-self: flex-end;
+        } 
+        span{
+          margin-left: 10px;
+        }
+        h4{
+          color: blanchedalmond;
+          padding-left: 30px;
+
+        }
+        .cart{
+         margin-left: 450px;
+        }

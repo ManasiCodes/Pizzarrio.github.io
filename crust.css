@@ -45,7 +45,10 @@ display: flex;
       text-align: center;
       margin-left: 300px;
   }
-  
+.line{
+  text-align: center;
+  color: blanchedalmond;
+}  
 
 
 
@@ -58,7 +61,7 @@ display: flex;
   .card {
      
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 350px;
   margin-left: 30px;
     background: #000;
@@ -302,3 +305,48 @@ margin-bottom: 30px;
     align-self: flex-end;
     margin-bottom: 30px;
       }
+      .cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
+        color: #fffc00;
+      }
+      .add{
+        text-decoration: none;
+        font-size: 20px;
+        color: #fffc00;
+        margin-left: 0px;
+        background: black;
+        border: none;
+        cursor: pointer;
+        font-family: 'Gideon Roman', cursive;;
+      }
+      .addto{
+        margin-top: 20px;
+        border: mintcream;
+        border-width: medium;
+        border-style: solid;
+        text-align: center;
+        padding-top : 5px;
+        padding-bottom : 5px;
+        
+      }
+      .addto:hover{
+        transform: translateY(0) scale(1.09);
+      }
+    .font{
+      font-size: 30px;
+      text-decoration: none;
+      color: blanchedalmond;
+      display: flex;
+      align-self: flex-end;
+    } 
+    span{
+      margin-left: 10px;
+    }
+     
+    h4{
+      color: blanchedalmond;
+      padding-left: 30px;
+
+    }
+    .cart{
+     margin-left: 450px;
+    }    

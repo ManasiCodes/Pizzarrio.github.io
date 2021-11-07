@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cheese</title>
     <link rel="stylesheet" href="cheese.css">
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
@@ -19,15 +19,33 @@
             font-family: 'Gideon Roman', cursive;
         }
     </style>
+
 </head>
 
 <body>
     <nav class="navbar">
-        <a class="nav1" href="cheese.html">CHEESE</a>
-        <a class="nav2" href="toppings.html">TOPPINGS</a>
-        <a class="nav3" href="sauces.html">SAUCES</a>
-        <a class="nav4" href="crust.html">CRUST</a>
-        <a class="nav5" href="addtocart.html">YOUR CART</a>
+        <div>
+            <a class="nav1" href="cheese.html">CHEESE</a>
+            <a class="nav2" href="toppings.html">TOPPINGS</a>
+            <a class="nav3" href="sauces.html">SAUCES</a>
+            <a class="nav4" href="crust.html">CRUST</a>
+        </div>
+
+        <div class="cart">
+            <button class="add" onclick="myFunction()">
+                <div class="font">
+
+                    Cart
+
+                </div>
+                <div id="myDIV">
+
+
+                </div>
+            </button>
+        </div>
+
+
     </nav>
     <section class="cheese-container">
         <div class="cheeses">
@@ -36,12 +54,19 @@
             </h1>
         </div>
     </section>
+    <h2 class="line">Any cheese just @70/- </h2>
     <section class="cheese-menu-container1">
+
         <div class="card">
             <div class="face face1">
                 <div class="content">
                     <span class="stars"></span>
-                    <h2 class="mozz">MOZZARELLA</h2>
+                    <h2 id="addtocart" data-name="mozzarella">MOZZARELLA</h2>
+                    <div class="addto">
+                        <button class="add" onclick="addCode()"><a class="cart1">Add to cart!</a>
+
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="face face2">
@@ -55,7 +80,10 @@
             <div class="face face1">
                 <div class="content">
                     <span class="stars"></span>
-                    <h2 class="cheddar">CHEDDAR</h2>
+                    <h2 id="addtocart">CHEDDAR</h2>
+                    <div class="addto">
+                        <button class="add"><a class="add-cart cart2" onclick="addCode()">Add to cart!</a> </button>>
+                    </div>
                 </div>
             </div>
             <div class="face face2">
@@ -69,7 +97,10 @@
             <div class="face face1">
                 <div class="content">
                     <span class="stars"></span>
-                    <h2 class="parm">PARMESAN</h2>
+                    <h2 id="addtocart">PARMESAN</h2>
+                    <div class="addto">
+                        <button class="add"><a class="add-cart cart3" onclick="addCode()">Add to cart!</a> </button>>
+                    </div>
                 </div>
             </div>
             <div class="face face2">
@@ -83,7 +114,10 @@
             <div class="face face1">
                 <div class="content">
                     <span class="stars"></span>
-                    <h2 class="goat">GOAT CHEESE</h2>
+                    <h2 id="addtocart">GOAT CHEESE</h2>
+                    <div class="addto">
+                        <button class="add"><a class="add-cart cart4" onclick="addCode()">Add to cart!</a> </button>>
+                    </div>
                 </div>
             </div>
             <div class="face face2">
@@ -96,7 +130,10 @@
             <div class="face face1">
                 <div class="content">
                     <span class="stars"></span>
-                    <h2 class="chip">CHIPOTLE CHEESE</h2>
+                    <h2 id="addtocart">CHIPOTLE CHEESE</h2>
+                    <div class="addto">
+                        <button class="add"><a class="add-cart cart5" onclick="addCode()">Add to cart!</a> </button>>
+                    </div>
                 </div>
             </div>
             <div class="face face2">
@@ -109,7 +146,10 @@
             <div class="face face1">
                 <div class="content">
                     <span class="stars"></span>
-                    <h2 class="cream">RICOTTA PROVOLONE</h2>
+                    <h2 id="addtocart">RICOTTA PROVOLONE</h2>
+                    <div class="addto">
+                        <button class="add"><a class="add-cart cart6" onclick="addCode()">Add to cart!</a> </button>>
+                    </div>
                 </div>
             </div>
             <div class="face face2">
@@ -119,6 +159,7 @@
         </div>
     </section>
 
+    <script src="add.js"></script>
 </body>
 
 </html>

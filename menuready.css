@@ -8,6 +8,7 @@ body{
 background-color: black;
 color: blanchedalmond;
 height: 40px;
+display: flex;
 }
 .nav1{
     font-size: 30px;
@@ -78,7 +79,56 @@ h2{
 .moz{
     font-size: 75px;
 }
+.cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
+    color: #fffc00;
+  }
+  .add{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    background: blanchedalmond;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gideon Roman', cursive;;
+    
+  }
+  .addto{
+    margin-top: 20px;
+    border: black;
+    border-width: medium;
+    border-style: solid;
+    text-align: center;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    margin-right: 700px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+  }
+  .addto:hover{
+    transform: translateY(0) scale(1.09);
+  }
+.font{
+  font-size: 30px;
+  text-decoration: none;
+  color: blanchedalmond;
+  display: flex;
+  align-self: flex-end;
+} 
+span{
+  margin-left: 10px;
+}
+ 
+h4{
+  color: blanchedalmond;
+  padding-left: 30px;
 
+}
+.cart{
+ padding-left: 600px ;
+ 
+}    
 
 
 

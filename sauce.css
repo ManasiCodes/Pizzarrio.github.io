@@ -17,6 +17,11 @@ display: flex;
     text-decoration: none;
     color: blanchedalmond;
 }
+.line{
+  color: blanchedalmond;
+  text-align: center;
+  padding-bottom: 10px;
+}
 .nav5{
     font-size: 30px;
     margin-left: 390px;
@@ -209,22 +214,22 @@ display: flex;
       background-size: cover;
     }
     .card:nth-child(2) .face.face2 {
-      background-image: url('sauce/romesco.jpg');
+      background-image: url('images/sauce/romesco.jpg');
       background-size: cover;
       border-radius: 15px;
     }
     .card:nth-child(3) .face.face2 {
-      background-image: url('sauce/bbq sauce.jpg');
+      background-image: url('images/sauce/bbq sauce.jpg');
       background-size: cover;
       border-radius: 15px;
     }
     .card1:nth-child(1) .face.face2 {
-      background-image: url('sauce/Marinara-sauce1.jpg');
+      background-image: url('images/sauce/Marinara-sauce1.jpg');
       background-size: cover;
       border-radius: 15px;
     }
     .card1:nth-child(2) .face.face2 {
-      background-image: url('sauce/Homemade-pesto-sauce-5.jpg');
+      background-image: url('images/sauce/Homemade-pesto-sauce-5.jpg');
       background-size: cover;
       border-radius: 15px;
     }
@@ -233,4 +238,48 @@ display: flex;
         background-size: cover;
         border-radius: 15px;
       }
-    
+      .cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
+        color: #fffc00;
+      }
+      .add{
+        text-decoration: none;
+        font-size: 20px;
+        color: #fffc00;
+        margin-left: 0px;
+        background: black;
+        border: none;
+        cursor: pointer;
+        font-family: 'Gideon Roman', cursive;;
+      }
+      .addto{
+        margin-top: 20px;
+        border: mintcream;
+        border-width: medium;
+        border-style: solid;
+        text-align: center;
+        padding-top : 5px;
+        padding-bottom : 5px;
+        
+      }
+      .addto:hover{
+        transform: translateY(0) scale(1.09);
+      }
+    .font{
+      font-size: 30px;
+      text-decoration: none;
+      color: blanchedalmond;
+      display: flex;
+      align-self: flex-end;
+    } 
+    span{
+      margin-left: 10px;
+    }
+     
+    h4{
+      color: blanchedalmond;
+      padding-left: 30px;
+
+    }
+    .cart{
+     margin-left: 450px;
+    }    

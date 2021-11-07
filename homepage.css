@@ -1,6 +1,6 @@
 body{
   background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 
 }
@@ -39,7 +39,7 @@ body{
         --neon-text-color: rgb(203, 216, 15);
         
       }
-    h1 {
+    #mainh1, #underline {
         font-size: 80px;
         font-weight: 600;
        margin-top: 100px;
@@ -50,17 +50,17 @@ body{
         animation: flicker 1.5s infinite alternate;     
       }
       
-      h1::-moz-selection {
+      #mainh1::-moz-selection ,#underline::-moz-selection {
         
         color: var(--neon-text-color);
       }
       
-      h1::selection {
+      #mainh1::selection, #underline::selection  {
        
         color: var(--neon-text-color);
       }
       
-      h1:focus {
+      #mainh1:focus,#underline:focus {
         outline: none;
       }
       
@@ -101,5 +101,187 @@ body{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    margin-bottom: 50px;
+    
+}
+.loader-container{
+  position: fixed;
+  top:0; left:0;
+  z-index: 10000;
+  background-color: #922d4b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%;
+  width:100%;
+}
+
+.loader-container.fade-out{
+  top:-120%;
+}
+#underline{
+text-align: left;
+padding: 0px;
+margin: 0px;
+}
+#main-menu-container{
+      
+  background-image: url('pizza sticker.png');
+  background-repeat: no-repeat;
+  background-size:initial;
+  background-position-x: center;
+  background-position-y: center;
+ height: 590px;
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+#custom{
+ margin: 30px;
+   align-self:flex-start;
+   border: whitesmoke;
+   border-style: solid;
+   padding: 10px;
+  box-shadow: rgba(243, 243, 245, 0.781) 0px 4px 16px, rgba(110, 110, 133, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  cursor: pointer;
+}
+#custom:hover{
+transform: translateY(0) scale(1.1);
+background-color: black;
+color: aliceblue;
+transition: ease-in;
+transition-duration: 0.2s;
+}
+#ready{
+ align-self: flex-end;
+ border: whitesmoke;
+ border-style: solid;
+ padding: 10px;
+margin-right: 50px;
+margin-bottom: 30px;
+box-shadow: rgba(243, 243, 245, 0.781) 0px 4px 16px, rgba(110, 110, 133, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+#ready:hover{
+transform: translateY(0) scale(1.1);
+background-color: black;
+color: aliceblue;
+transition: ease-in;
+transition-duration: 0.2s;
+}
+.a1, .a2{
+     font-size: 40px;  
+text-decoration: none;
+color: aliceblue;
+}
+#about {
+  align-items: center;
+ 
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+.person {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+.about-container {
+  border-radius: 50%;
+  height: 312px;
+  -webkit-tap-highlight-color: transparent;
+  transform: scale(0.48);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 400px;
+
+}
+.about-container:after {
+
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 390px;
+  width: 100%;
+}
+.about-container:hover {
+  transform: scale(0.54);
+}
+.about-container-inner {
+  clip-path: path(
+    "M 390,400 C 390,504.9341 304.9341,590 200,590 95.065898,590 10,504.9341 10,400 V 10 H 200 390 Z"
+  );
+  position: relative;
+  transform-origin: 50%;
+  top: -200px;
+  
+}
+.circle {
+
+  border-radius: 50%;
+  cursor: pointer;
+  height: 380px;
+  left: 10px;
+  pointer-events: none;
+  position: absolute;
+  top: 210px;
+  width: 380px;
+}
+.img {
+  pointer-events: none;
+  position: relative;
+  transform: translateY(20px) scale(1.15);
+  transform-origin: 50% bottom;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.about-container:hover .img {
+  transform: translateY(0) scale(1.2);
+}
+.img1 {
+  left: 22px;
+  top: 164px;
+  width: 340px;
+}
+.img2 {
+  left: -46px;
+  top: 174px;
+  width: 444px;
+}
+.img3 {
+  left: -16px;
+  top: 144px;
+  width: 466px;
+}
+.img4 {
+    left: -16px;
+    top: 144px;
+    width: 466px;
+  }
+.divider {
+  background-color: #ca6060;
+  height: 1px;
+  width: 160px;
+}
+.name {
+  color: blanchedalmond;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 16px;
+  text-align: center;
+}
+.title {
+  color: #6e6e6e;
+  font-family: arial;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+#abouth1, #menuh1{
+  margin-bottom: 20px;
+  padding: 0px;
+  color: blanchedalmond;
+  font-size: 70px;
 }

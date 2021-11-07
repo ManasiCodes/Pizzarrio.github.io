@@ -18,14 +18,10 @@ display: flex;
     color: blanchedalmond;
     
 }
-.nav5{
-    font-size: 30px;
-    margin-left: 390px;
-   
-    text-decoration: none;
-    color: blanchedalmond;
-
+.nav4{
+  padding-right: 450px;
 }
+
 .cheese-container{
     margin-top: 0px;
       display: flex;
@@ -45,6 +41,10 @@ display: flex;
       text-align: center;
       margin-left: 500px;
       color: black;
+  }
+  .line{
+    color: blanchedalmond;
+    text-align: center;
   }
   .cheese-menu-container1{margin-left:100px;
     display: flex;
@@ -98,36 +98,13 @@ display: flex;
             padding: 20px;
           }
       
-            .mozz {
+            #addtocart {
               background-color: #fffc00;
               -webkit-background-clip: text;
               -webkit-text-fill-color: transparent;
             }
-            .cheddar{
-              background-color: #fffc00;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-            .parm {
-              background-color: #fffc00;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-            .goat {
-              background-color: #fffc00;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-            .chip {
-              background-color: #fffc00;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-            }
-            .cream {
-                background-color: #fffc00;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
+            
+            
             
               .face {
                 position: absolute;
@@ -232,4 +209,56 @@ display: flex;
             background-size: cover;
             border-radius: 15px;
           }
-        
+
+  .add{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fffc00;
+    margin-left: 0px;
+    background: black;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gideon Roman', cursive;;
+   
+  
+    
+  }
+  .cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
+    color: #fffc00;
+  }
+  .addto{
+    margin-top: 20px;
+    border: mintcream;
+    border-width: medium;
+    border-style: solid;
+    text-align: center;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    
+  }
+  .addto:hover{
+    transform: translateY(0) scale(1.09);
+  }
+.font{
+  font-size: 30px;
+  text-decoration: none;
+  color: blanchedalmond;
+ text-align: center;
+} 
+span{
+  margin-left: 10px;
+}
+h4{
+  color: blanchedalmond;
+  padding-left: 30px;
+
+}
+#myDIV{
+  width:200px;
+  display: flex;
+ 
+}
+.font:hover{
+  color: #000;
+  background-color: rgba(158, 151, 151, 0.39);
+}
