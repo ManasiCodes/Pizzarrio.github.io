@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ready menu</title>
-    <link rel="stylesheet" href="menuready.css">
+    <link rel="stylesheet" href="homepage.css">
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
     <style>
         body,
@@ -28,11 +28,18 @@
 
 
         </div>
-        <div class="cart">
-            <a href="cart.html" class="font">
+        <div class="cart-other">
+            <button class="add-premade" onclick="myFunction()">
+                <div class="font">
 
-                Cart<span>0</span>
-            </a>
+                    Cart
+
+                </div>
+                <div id="myDIV">
+
+
+                </div>
+            </button>
         </div>
 
     </nav>
@@ -47,10 +54,10 @@
     <section class="mainbg-container">
 
         <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/farmhouse.jpg" width="300" height="250"></a>
-            <h1>Farmhouse Pizza
+            <a><img class="premade-img1" align="right" src="images/pizza/farmhouse.jpg" width="300" height="250"></a>
+            <h1 id="premade-heading">Farmhouse Pizza
             </h1>
-            <h2>A classic with Onions, Tomatoes,<br> Olives and Bell Peppers</h2>
+            <h2 id="premade-description">A classic with Onions, Tomatoes,<br> Olives and Bell Peppers</h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>
 
@@ -60,78 +67,39 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/aachari onion.jpeg" width="300" height="250"></a>
-            <h1>Aachari Onion
-            </h1>
-            <h2>Zingy tomato base topped<br>with freshly caramelized onions</h2>
-            <div class="addto">
-                <button class="add"><a class="add-cart cart9">Add to cart!</a>
-
-                </button>
-            </div>
-        </section>
-
-
-        <section class="firstcon">
-            <a><img class="img1" align="right" src="https://kfoods.com/images1/newrecipeicon/mexican-pizza_4960.jpg"
-                    width="300" height="250"></a>
-            <h1>Pizza Mexicana
-            </h1>
-            <h2>Zesty mexican sauce topped <br> with bell peppers, beans, onions and american corn</h2>
-            <div class="addto">
-                <button class="add"><a class="add-cart cart9">Add to cart!</a>
-
-                </button>
-            </div>
-        </section>
-
-
-        <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/paneer.jpg" width="300" height="250"></a>
-            <h1>Paneer Loadz
-            </h1>
-            <h2>An explosion of yummy paneer tikka bites<br>with a hint of basil and jalapenos</h2>
-            <div class="addto">
-                <button class="add"><a class="add-cart cart9">Add to cart!</a>
-
-                </button>
-            </div>
-        </section>
-
-
-        <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/mozzeralla paradise.jpg" width="300" height="250"></a>
-            <h1 class="moz">Mozzeralla Paradiso
-            </h1>
-            <h2>Sinful indulegence of <br>Mozzarella with sliced tomatoes, jalapenos and onions</h2>
-            <div class="addto">
-                <button class="add"><a class="add-cart cart9">Add to cart!</a>
-
-                </button>
-            </div>
-        </section>
-
-
-        <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/corn.jpg" width="300" height="250"></a>
-            <h1>Cornilicious
-            </h1>
-            <h2>A bomb of sweet corn <br>kernels with Chipotle sauce. Definitely worth a try!</h2>
-            <div class="addto">
-                <button class="add"><a class="add-cart cart9">Add to cart!</a>
-
-                </button>
-            </div>
-        </section>
-
-
-        <section class="firstcon">
-            <a><img class="img1" align="right"
-                    src="https://pizzahousepro.com/wp-content/uploads/2020/12/veg-loaded-pizza.jpg" width="300"
+            <a><img class="premade-img1" align="right" src="images/pizza/aachari onion.jpeg" width="300"
                     height="250"></a>
-            <h1>Veg Loaded
+            <h1 id="premade-heading">Aachari Onion
             </h1>
-            <h2>Fill yourself up with the goodness of<br> olives, bell peppers, tomatoes,american corn
+            <h2 id="premade-description">Zingy tomato base topped<br>with freshly caramelized onions</h2>
+            <div class="addto">
+                <button class="add"><a class="add-cart cart9">Add to cart!</a>
+
+                </button>
+            </div>
+        </section>
+
+
+        <section class="firstcon">
+            <a><img class="premade-img1" align="right"
+                    src="https://kfoods.com/images1/newrecipeicon/mexican-pizza_4960.jpg" width="300" height="250"></a>
+            <h1 id="premade-heading">Pizza Mexicana
+            </h1>
+            <h2 id="premade-description">Zesty mexican sauce topped <br> with bell peppers, beans, onions and american
+                corn</h2>
+            <div class="addto">
+                <button class="add"><a class="add-cart cart9">Add to cart!</a>
+
+                </button>
+            </div>
+        </section>
+
+
+        <section class="firstcon">
+            <a><img class="premade-img1" align="right" src="images/pizza/paneer.jpg" width="300" height="250"></a>
+            <h1 id="premade-heading">Paneer Loadz
+            </h1>
+            <h2 id="premade-description">An explosion of yummy paneer tikka bites<br>with a hint of basil and jalapenos
             </h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>
@@ -142,10 +110,12 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/vegetable.gif" width="300" height="250"></a>
-            <h1>Vegetable Bonanza
+            <a><img class="premade-img1" align="right" src="images/pizza/mozzeralla paradise.jpg" width="300"
+                    height="250"></a>
+            <h1 id="premade-heading">Mozzeralla Paradiso
             </h1>
-            <h2>Our bestseller loaded with onions, cherry tomatoes,<br>olives, babycorn, bell peppers and mushrooms</h2>
+            <h2 id="premade-description">Sinful indulegence of <br>Mozzarella with sliced tomatoes, jalapenos and onions
+            </h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>
 
@@ -155,10 +125,11 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/pepperoni.jpg" width="300" height="250"></a>
-            <h1>Pepperoni Pizza
+            <a><img class="premade-img1" align="right" src="images/pizza/corn.jpg" width="300" height="250"></a>
+            <h1 id="premade-heading">Cornilicious
             </h1>
-            <h2>Spicy pepperoni accompanied with the gooeyness<br>of mozzeralla</h2>
+            <h2 id="premade-description">A bomb of sweet corn <br>kernels with Chipotle sauce. Definitely worth a try!
+            </h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>
 
@@ -168,12 +139,56 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right"
+            <a><img class="premade-img1" align="right"
+                    src="https://pizzahousepro.com/wp-content/uploads/2020/12/veg-loaded-pizza.jpg" width="300"
+                    height="250"></a>
+            <h1 id="premade-heading">Veg Loaded
+            </h1>
+            <h2 id="premade-description">Fill yourself up with the goodness of<br> olives, bell peppers,
+                tomatoes,american corn
+            </h2>
+            <div class="addto">
+                <button class="add"><a class="add-cart cart9">Add to cart!</a>
+
+                </button>
+            </div>
+        </section>
+
+
+        <section class="firstcon">
+            <a><img class="premade-img1" align="right" src="images/pizza/vegetable.gif" width="300" height="250"></a>
+            <h1 id="premade-heading">Vegetable Bonanza
+            </h1>
+            <h2 id="premade-description">Our bestseller loaded with onions, cherry tomatoes,<br>olives, babycorn, bell
+                peppers and mushrooms</h2>
+            <div class="addto">
+                <button class="add"><a class="add-cart cart9">Add to cart!</a>
+
+                </button>
+            </div>
+        </section>
+
+
+        <section class="firstcon">
+            <a><img class="premade-img1" align="right" src="images/pizza/pepperoni.jpg" width="300" height="250"></a>
+            <h1 id="premade-heading">Pepperoni Pizza
+            </h1>
+            <h2 id="premade-description">Spicy pepperoni accompanied with the gooeyness<br>of mozzeralla</h2>
+            <div class="addto">
+                <button class="add"><a class="add-cart cart9">Add to cart!</a>
+
+                </button>
+            </div>
+        </section>
+
+
+        <section class="firstcon">
+            <a><img class="premade-img1" align="right"
                     src="https://static.toiimg.com/thumb/59696130.cms?imgsize=1530680&width=800&height=800" width="300"
                     height="250"></a>
-            <h1>Tandoori Sausage
+            <h1 id="premade-heading">Tandoori Sausage
             </h1>
-            <h2>Chicken seared in <br>hibachi grill glazed with tandoori sauce</h2>
+            <h2 id="premade-description">Chicken seared in <br>hibachi grill glazed with tandoori sauce</h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>
 
@@ -183,10 +198,12 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/chicken tikka.jpg" width="300" height="250"></a>
-            <h1>Chicken Tikka
+            <a><img class="premade-img1" align="right" src="images/pizza/chicken tikka.jpg" width="300"
+                    height="250"></a>
+            <h1 id="premade-heading">Chicken Tikka
             </h1>
-            <h2>Truly a treat for the chicken lover!<br>Chicken tikka straight from the tandoor on your favourite pizza
+            <h2 id="premade-description">Truly a treat for the chicken lover!<br>Chicken tikka straight from the tandoor
+                on your favourite pizza
                 :)
             </h2>
             <div class="addto">
@@ -198,10 +215,11 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right" src="images/pizza/chicken Kheema.jpg" width="300" height="250"></a>
-            <h1>Chicken Kheema
+            <a><img class="premade-img1" align="right" src="images/pizza/chicken Kheema.jpg" width="300"
+                    height="250"></a>
+            <h1 id="premade-heading">Chicken Kheema
             </h1>
-            <h2>Freshly made chicken kheema<br>with olives and sundried tomatoes</h2>
+            <h2 id="premade-description">Freshly made chicken kheema<br>with olives and sundried tomatoes</h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>
 
@@ -211,12 +229,13 @@
 
 
         <section class="firstcon">
-            <a><img class="img1" align="right"
+            <a><img class="premade-img1" align="right"
                     src="https://www.diabetesfoodhub.org/system/thumbs/system/images/recipes/Recid_76_BBQ_Chicken_Pizza_iStock-484653761_02262018_2959761669.jpg"
                     width="300" height="250"></a>
-            <h1>BBQ Chicken
+            <h1 id="premade-heading">BBQ Chicken
             </h1>
-            <h2>Honey topped BBQ chicken <br>with onions and basil just to give your tastebuds the right sweet and
+            <h2 id="premade-description">Honey topped BBQ chicken <br>with onions and basil just to give your tastebuds
+                the right sweet and
                 spicy! </h2>
             <div class="addto">
                 <button class="add"><a class="add-cart cart9">Add to cart!</a>

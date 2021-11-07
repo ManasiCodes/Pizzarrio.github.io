@@ -13,22 +13,19 @@ body{
     
     }
     .nav1 ,.nav2, .nav3 ,.nav4{
-        font-size: 30px;
-        margin: 0px;
-        padding-right: 20px;
-        text-decoration: none;
-        color: blanchedalmond;
-       
-       
-    }
-    .nav5{
-        font-size: 30px;
-        margin-left: 390px;
-  
-        text-decoration: none;
-        color: blanchedalmond;
-    
-    }
+      font-size: 30px;
+      margin: 0px;
+      padding-right: 20px;
+      text-decoration: none;
+      color: blanchedalmond;
+      
+  }
+  .nav4{
+    padding-right: 450px;
+  }
+
+  /*------------------------------------ INDEX PAGE STARTS----------------------------------------------------- */
+
     .container{
       display: flex;
     }
@@ -285,3 +282,450 @@ color: aliceblue;
   color: blanchedalmond;
   font-size: 70px;
 }
+.font{
+  font-size: 30px;
+  text-decoration: none;
+  color: blanchedalmond;
+ text-align: center;
+} 
+#myDIV{
+  width:200px;
+  display: flex;
+ 
+}
+.font:hover{
+  color: #000;
+  background-color: rgba(158, 151, 151, 0.39);
+}
+.add{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fffc00;
+  margin-left: 0px;
+  background: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Gideon Roman', cursive;;
+}
+  /*------------------------------------ INDEX PAGE ENDS----------------------------------------------------- */
+
+
+/* ------------------------------------CONTACT FORM STARTS ----------------------------------*/
+
+input {
+  outline: none;
+  border: none;
+}
+
+textarea {
+outline: none;
+border: none; 
+font-family: Helvetica Neue, "Montserrat", sans-serif;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder { color: #bdbdd3;}
+input:-moz-placeholder { color: #bdbdd3;}
+input::-moz-placeholder { color: #bdbdd3;}
+input:-ms-input-placeholder { color: #bdbdd3;}
+
+textarea::-webkit-input-placeholder { color: #bdbdd3;}
+textarea:-moz-placeholder { color: #bdbdd3;}
+textarea::-moz-placeholder { color: #bdbdd3;}
+textarea:-ms-input-placeholder { color: #bdbdd3;}
+
+
+/*==================================================================
+[ Contact - Area]*/
+
+.container-contact {
+  width: 100%;  
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+  background-color: transparent;
+ 
+}
+
+.wrap-contact {
+  width: 700px;
+  background: transparent;
+  border: 1px solid #b3b3b3;
+  padding: 40px 0px 20px 0px;
+  background-image: url('https://i.pinimg.com/originals/8e/32/3e/8e323e5eb8e476d9f0f0fb18d5ae3113.jpg');
+  background-size: cover;
+}
+
+.wrap-contact-image {
+  width: 600px;
+  background: transparent;
+  padding: 40px 0px 20px 0px;
+}
+
+/*==================================================================
+[ Contact - Form ]*/
+
+.contact-form {
+  width: 100%;
+}
+
+.error {
+  padding: 5px 9px;
+  border: 1px solid red;
+  color: red;
+  border-radius: 3px;
+}
+ 
+.success {
+  padding: 5px 9px;
+  border: 1px solid green;
+  color: green;
+  border-radius: 3px;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input {
+  width: 90%;
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.input {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 31px;
+  color:black;
+  line-height: 1.2;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  height: 42px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: none;
+}
+
+/*---------------------------------------------*/
+
+input.input {
+  height: 62px;
+  padding: 0 15px 0 15px;
+}
+
+
+textarea.input {
+  min-height: 169px;
+  padding: 19px 15px 0 15px;
+}
+
+/*------------------------------------------------------------------
+[ Focus Input ]*/
+
+.focus-input {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 31px;
+  background-color: #fff;
+  pointer-events: none;
+  
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input:focus + .focus-input100 {
+  width: calc(100% + 20px);
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-contact-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contact-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border-radius:7px;
+  cursor: pointer;
+
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 7px;
+  background-color: #9e8c7b;
+  pointer-events: none;
+  
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact-form-btn:hover:before {
+  background-color: #916439;
+}
+
+.validate-input {
+  position: relative;
+}
+
+
+
+
+/*==================================================================
+[  Hero title ]*/
+
+
+.listing-hero {
+    background: #F7F0EA;
+    padding: 101px 0 30px;
+}
+
+.hero-heading {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 709px;
+}
+
+section#post-28 {
+    padding-top: 155px;
+}
+
+.hero-large {
+    display: inline-block;
+    width: 40%;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 56px;
+    position: relative;
+    top: -19px;
+    color: #454545;
+}
+
+.hero-text {
+    display: inline-block;
+    width: 59%;
+    vertical-align: top;
+    border-left: 1px solid #8E8E8E;
+    padding: 0 33px;
+    font-size: 15px;
+    line-height: 23px;
+    /* or 153% */
+    color: black;
+    vertical-align: top;
+}
+
+
+.hero-text .btn.no-border {
+    margin-top: 15px;
+    margin-bottom: 6.5px;
+  
+    background-repeat: no-repeat;
+    background-size: 25px;
+    display: block;
+    background-position: right center;
+    max-width: 99px;
+}
+
+.hero-text i {
+    font-style: normal;
+    margin-top: -6px;
+    display: block;
+}
+
+/* -----------------CONTACT FORM ENDS---------------------- */
+
+/* --------------------------------PRE MADE PIZZA PAGE STARTS------------------------------------------- */
+.ready-container{
+  margin-top: 0px;
+    display: flex;
+    height: 400px;
+    background-image: url('https://reygif.com/media/6/hora-de-la-pizza-88452.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 50px;
+    
+    
+}
+.ready{
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 50px;
+  margin-top: 140px;
+    color: beige;
+}
+.mainbg-container{
+
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: antiquewhite;
+}
+#premade-heading{
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-self: flex-start;
+}
+#premade-description{
+  font-size: 40px;
+  text-align: left;
+  align-self: flex-end;
+  margin-right: 500px;
+}
+.premade-img1{
+  margin-top: 25px;
+  margin-right: 20px;
+  cursor: pointer;;
+}
+.premade-img1:hover{
+  transform: translateY(0) scale(1.09);
+}
+.firstcon{
+  border-bottom: black;
+  border-bottom-width: 40px;
+  border-bottom-style: solid;
+}
+.moz{
+  font-size: 75px;
+}
+.cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
+  color: #fffc00;
+}
+.add{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin-left: 0px;
+  background-color: blanchedalmond;
+  border: none;
+  cursor: pointer;
+  font-family: 'Gideon Roman', cursive;;
+  
+}
+.add-premade,.add-main{
+  text-decoration: none;
+  font-size: 20px;
+  color: blanchedalmond ;
+  margin-left: 0px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  font-family: 'Gideon Roman', cursive;;
+  
+}
+.add-main{
+  padding-left: 100px;
+}
+.addto{
+  margin-top: 20px;
+  border: black;
+  border-width: medium;
+  border-style: solid;
+  text-align: center;
+  padding-top : 5px;
+  padding-bottom : 5px;
+  margin-right: 700px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  
+}
+.addto:hover{
+  transform: translateY(0) scale(1.09);
+}
+.font{
+font-size: 30px;
+text-decoration: none;
+color: blanchedalmond;
+display: flex;
+align-self: flex-end;
+} 
+
+.cart-other{
+padding-left: 600px ;
+
+}    
+
+/* --------------------------------PRE MADE PIZZA PAGE ENDS------------------------------------------- */
+
+
