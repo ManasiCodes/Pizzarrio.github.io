@@ -728,4 +728,59 @@ padding-left: 600px ;
 
 /* --------------------------------PRE MADE PIZZA PAGE ENDS------------------------------------------- */
 
+/* --------------------------------CUSTOMIZATION JUNCTION STARTS------------------------------------------- */
+
+.cust-container{
+  height: 550px;
+  
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.end{
+ background-color: black;
+ height: 20px;
+}
+
+
+#cust-heading{
+  margin-left: 120px;
+}
+.h1-top{
+  margin-left: 100px;
+}
+.topping , .sauces ,.crust ,.cheese{
+    
+text-decoration: none;
+color: aliceblue;
+}
+.choose-sauce, .choose-cheese{
+ align-self: flex-end;
+}
+.toppimg , .sauceimg, .cheeseimg , .crustimg{
+    
+  transition: box-shadow .3s;
+    width: 300px;
+   border-radius: 50%;
+   float: left;
+   height: 250px;
+   cursor: pointer;
+   
+}
+.toppimg:hover,.sauceimg:hover,.crustimg:hover,.cheeseimg:hover
+{
+  box-shadow: rgba(237, 237, 240, 0.884) 0px 50px 100px -20px;
+  transform: scale(1.1, 1.1);
+}
+
+.toppimg:hover::after, .sauceimg:hover::after,.crustimg:hover::after , .cheeseimg:hover::after{
+  opacity: 0.5;
+}
+
+/* --------------------------------CUSTOMIZATION PAGE ENDS------------------------------------------- */
+
+
+
+
+
 
