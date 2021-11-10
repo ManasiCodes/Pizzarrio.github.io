@@ -60,10 +60,10 @@
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <span class="stars"></span>
-                    <h2 id="addtocart">MOZZARELLA</h2>
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">MOZZARELLA</h2>
                     <div class="addto">
-                        <button class="add" onclick="addCode()"><a class="cart1">Add to cart!</a>
+                        <button class="add btn btn-primary shop-item-button">Add to cart!
 
                         </button>
                     </div>
@@ -157,6 +157,21 @@
                 <h2>6</h2>
             </div>
         </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
     </section>
 
     <script src="add.js"></script>

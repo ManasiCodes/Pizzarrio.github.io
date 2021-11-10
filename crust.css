@@ -316,7 +316,7 @@ margin-bottom: 30px;
         background: black;
         border: none;
         cursor: pointer;
-        font-family: 'Gideon Roman', cursive;;
+        font-family: 'Gideon Roman', cursive;
       }
       .addto{
         margin-top: 20px;
@@ -350,3 +350,126 @@ margin-bottom: 30px;
     .cart{
      margin-left: 450px;
     }    
+    
+    .cart-header {
+      font-weight: bold;
+      font-size: 1.25em;
+      color: blanchedalmond;
+  }
+  
+  .cart-column {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid blanchedalmond;
+      margin-right: 1.5em;
+      padding-bottom: 10px;
+      margin-top: 10px;
+  }
+  
+  .cart-row {
+      display: flex;
+  }
+  
+  .cart-item {
+      width: 45%;
+  }
+  
+  .cart-price {
+      width: 20%;
+      font-size: 1.2em;
+      color:blanchedalmond;
+  }
+  
+  .cart-quantity {
+      width: 35%;
+  }
+  
+  .cart-item-title {
+      color:blanchedalmond;
+      margin-left: .5em;
+      font-size: 1.2em;
+  }
+  
+  .cart-item-image {
+      width: 75px;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .btn-danger {
+      color:yellow;
+      background-color: black;
+      border: mintcream solid;
+      border-radius: .3em;
+      font-weight: bold;
+      cursor: pointer;
+      font-family: 'Gideon Roman' , cursive;
+      padding: 4px;
+  }
+  
+  .btn-danger:hover {
+    transform: translateY(0) scale(1.09);
+      
+  }
+  
+  .cart-quantity-input {
+      height: 34px;
+      width: 50px;
+      border-radius: 5px;
+      border: 1px solid #56CCF2;
+      background-color: #eee;
+      color: #333;
+      padding: 0;
+      text-align: center;
+      font-size: 1.2em;
+      margin-right: 25px;
+  }
+  
+  .cart-row:last-child {
+      border-bottom: 1px solid black;
+  }
+  
+  .cart-row:last-child .cart-column {
+      border: none;
+  }
+  
+  .cart-total {
+      text-align: end;
+      margin-top: 10px;
+      margin-right: 10px;
+  }
+  
+  .cart-total-title {
+      font-weight: bold;
+      font-size: 1.5em;
+      color: blanchedalmond;
+      margin-right: 20px;
+  }
+  
+  .cart-total-price {
+      color: blanchedalmond;
+      font-size: 1.1em;
+  }
+  .section-header {
+    
+    font-weight: normal;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 2.5em;
+}
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+  text-decoration: none;
+  background-color: black;
+  color: yellow;
+  font-family:  'Gideon Roman', cursive;
+  border: mintcream solid;
+  border-width: 3px;
+  cursor: pointer;
+  padding: 5px;
+}
+.btn-purchase:hover{
+  transform: translateY(0) scale(1.1);
+}
