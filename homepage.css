@@ -649,13 +649,13 @@ section#post-28 {
     margin-right: 100px;
     background-color: antiquewhite;
 }
-#premade-heading{
+.premade-heading{
     font-size: 80px;
     margin-bottom: 0px;
     margin-top: 0px;
     align-self: flex-start;
 }
-#premade-description{
+.premade-description{
   font-size: 40px;
   text-align: left;
   align-self: flex-end;
@@ -677,9 +677,7 @@ section#post-28 {
 .moz{
   font-size: 75px;
 }
-.cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
-  color: #fffc00;
-}
+
 .add{
   text-decoration: none;
   font-size: 20px;
@@ -734,61 +732,138 @@ padding-left: 600px ;
 
 }    
 
+.premade{
+  color: blanchedalmond;
+}
 /* --------------------------------PRE MADE PIZZA PAGE ENDS------------------------------------------- */
 
-/* --------------------------------CUSTOMIZATION JUNCTION STARTS------------------------------------------- */
+/* **********************DISPLAY CART SECTION STARTS************************** */
 
-.cust-container{
-  height: 550px;
+ 
+ .cart-header {
+   font-weight: bold;
+   font-size: 1.25em;
+   color: blanchedalmond;
   
-  display: flex;
-
-  justify-content: space-evenly;
-}
-.end{
- background-color: black;
- height: 20px;
 }
 
+.cart-column {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid blanchedalmond;
+   margin-right: 1.5em;
+   padding-bottom: 10px;
+   margin-top: 10px;
+}
 
-#cust-heading{
-  margin-left: 120px;
+.cart-row {
+   display: flex;
 }
-.h1-top{
-  margin-left: 100px;
+
+.cart-item {
+   width: 45%;
 }
-.topping , .sauces ,.crust ,.cheese{
-    
-text-decoration: none;
-color: aliceblue;
+
+.cart-price {
+   width: 20%;
+   font-size: 1.2em;
+   color:blanchedalmond;
 }
-.choose-sauce, .choose-cheese{
- align-self: flex-end;
+
+.cart-quantity {
+   width: 35%;
 }
-.toppimg , .sauceimg, .cheeseimg , .crustimg{
-    
-  transition: box-shadow .3s;
-    width: 300px;
-   border-radius: 50%;
-   float: left;
-   height: 250px;
-   cursor: pointer;
+
+.cart-item-title {
+   color:blanchedalmond;
+   margin-left: .5em;
+   font-size: 1.2em;
    
 }
-.toppimg:hover,.sauceimg:hover,.crustimg:hover,.cheeseimg:hover
-{
-  box-shadow: rgba(237, 237, 240, 0.884) 0px 50px 100px -20px;
-  transform: scale(1.1, 1.1);
+
+.cart-item-image {
+   width: 75px;
+   height: auto;
+   border-radius: 10px;
 }
 
-.toppimg:hover::after, .sauceimg:hover::after,.crustimg:hover::after , .cheeseimg:hover::after{
-  opacity: 0.5;
+.btn-danger {
+   color:yellow;
+   background-color: black;
+   border: mintcream solid;
+   border-radius: .3em;
+   font-weight: bold;
+   cursor: pointer;
+   font-family: 'Gideon Roman' , cursive;
+   padding: 4px;
 }
 
-/* --------------------------------CUSTOMIZATION PAGE ENDS------------------------------------------- */
+.btn-danger:hover {
+ transform: translateY(0) scale(1.09);
+   
+}
 
+.cart-quantity-input {
+   height: 34px;
+   width: 50px;
+   border-radius: 5px;
+   border: 1px solid #56CCF2;
+   background-color: #eee;
+   color: #333;
+   padding: 0;
+   text-align: center;
+   font-size: 1.2em;
+   margin-right: 25px;
+}
 
+.cart-row:last-child {
+   border-bottom: 1px solid black;
+}
 
+.cart-row:last-child .cart-column {
+   border: none;
+}
 
+.cart-total {
+   text-align: end;
+   margin-top: 10px;
+   margin-right: 10px;
+}
 
+.cart-total-title {
+   font-weight: bold;
+   font-size: 1.5em;
+   color: blanchedalmond;
+   margin-right: 20px;
+}
 
+.cart-total-price {
+   color: blanchedalmond;
+   font-size: 1.1em;
+}
+.section-header {
+ 
+ font-weight: normal;
+ color: blanchedalmond;
+ text-align: center;
+ font-size: 2.5em;
+}
+.btn-purchase {
+display: block;
+margin: 40px auto 80px auto;
+font-size: 1.75em;
+text-decoration: none;
+background-color: black;
+color: yellow;
+font-family:  'Gideon Roman', cursive;
+border: mintcream solid;
+border-width: 3px;
+cursor: pointer;
+padding: 5px;
+}
+.btn-purchase:hover{
+transform: translateY(0) scale(1.1);
+}
+
+/* **********************DISPLAY CART SECTION ENDS************************** */
+                   

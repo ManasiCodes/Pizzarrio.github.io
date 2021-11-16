@@ -3,6 +3,9 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
+function added() {
+    alert('Added to cart')
+}
 
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
@@ -19,6 +22,7 @@ function ready() {
 
     var addToCartButtons = document.getElementsByClassName('shop-item-button')
     for (var i = 0; i < addToCartButtons.length; i++) {
+
         var button = addToCartButtons[i]
         button.addEventListener('click', addToCartClicked)
         console.log("Clicked")
@@ -30,6 +34,7 @@ function ready() {
 function purchaseClicked() {
     alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
+
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
     }
@@ -102,3 +107,5 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
 }
+
+

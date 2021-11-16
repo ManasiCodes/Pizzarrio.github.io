@@ -11,21 +11,16 @@ color: blanchedalmond;
 height: 40px;
 display: flex;
 }
-.nav1 ,.nav2, .nav3 ,.nav4{
+.nav1 {
     font-size: 30px;
     margin: 0px;
     padding-right: 20px;
     text-decoration: none;
     color: blanchedalmond;
 }
-.nav5{
-    font-size: 30px;
-    margin-left: 390px;
-   
-    text-decoration: none;
-    color: blanchedalmond;
 
-}
+/* **********************************CRUST CSS SECTION STARTS***************************************** */
+
 .classic-container{
     margin-top: 0px;
       display: flex;
@@ -48,8 +43,12 @@ display: flex;
 .line{
   text-align: center;
   color: blanchedalmond;
+  padding-bottom: 30px;
 }  
-
+.font{
+  padding-bottom: 0px;
+  font-size: 20px;
+}
 
 
 
@@ -146,22 +145,22 @@ display: flex;
     border-radius: 15px;
   }
   .card:nth-child(2) .face.face2 {
-    background-image: url('crust/thin crust.jpeg');
+    background-image: url('images/crust/thin crust.jpeg');
     background-size: cover;
     border-radius: 15px;
   }
   .card:nth-child(3) .face.face2 {
-    background-image: url('crust/multigrain.jpeg');
+    background-image: url('images/crust/multigrain.jpeg');
     background-size: cover;
     border-radius: 15px;
   }
   .card:nth-child(4) .face.face2 {
-    background-image: url('crust/whole wheat.jpeg');
+    background-image: url('images/crust/whole wheat.jpeg');
     background-size: cover;
     border-radius: 15px;
   }
   .card:nth-child(5) .face.face2 {
-    background-image: url('crust/cheese burst.jpeg');
+    background-image: url('images/crust/cheese burst.jpeg');
     background-size: cover;
     border-radius: 15px;
   }
@@ -305,9 +304,7 @@ margin-bottom: 30px;
     align-self: flex-end;
     margin-bottom: 30px;
       }
-      .cart1 , .cart2,.cart3,.cart4,.cart5,.cart6{
-        color: #fffc00;
-      }
+     
       .add{
         text-decoration: none;
         font-size: 20px;
@@ -331,13 +328,7 @@ margin-bottom: 30px;
       .addto:hover{
         transform: translateY(0) scale(1.09);
       }
-    .font{
-      font-size: 30px;
-      text-decoration: none;
-      color: blanchedalmond;
-      display: flex;
-      align-self: flex-end;
-    } 
+    
     span{
       margin-left: 10px;
     }
@@ -347,129 +338,1000 @@ margin-bottom: 30px;
       padding-left: 30px;
 
     }
-    .cart{
-     margin-left: 450px;
-    }    
+
+    /* **********************************CRUST CSS SECTION ENDS***************************************** */
+   
+.sauce-container{
+  margin-top: 0px;
+    display: flex;
+    height: 300px;
+    background-image: url('https://c.tenor.com/rmpWu_XJ0ZwAAAAC/adding-generous-layer-of-sauce-joshua-weissman.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 50px;
     
-    .cart-header {
-      font-weight: bold;
-      font-size: 1.25em;
-      color: blanchedalmond;
-  }
-  
-  .cart-column {
-      display: flex;
-      align-items: center;
-      border-bottom: 1px solid blanchedalmond;
-      margin-right: 1.5em;
-      padding-bottom: 10px;
-      margin-top: 10px;
-  }
-  
-  .cart-row {
-      display: flex;
-  }
-  
-  .cart-item {
-      width: 45%;
-  }
-  
-  .cart-price {
-      width: 20%;
-      font-size: 1.2em;
-      color:blanchedalmond;
-  }
-  
-  .cart-quantity {
-      width: 35%;
-  }
-  
-  .cart-item-title {
-      color:blanchedalmond;
-      margin-left: .5em;
-      font-size: 1.2em;
-  }
-  
-  .cart-item-image {
-      width: 75px;
-      height: auto;
-      border-radius: 10px;
-  }
-  
-  .btn-danger {
-      color:yellow;
-      background-color: black;
-      border: mintcream solid;
-      border-radius: .3em;
-      font-weight: bold;
-      cursor: pointer;
-      font-family: 'Gideon Roman' , cursive;
-      padding: 4px;
-  }
-  
-  .btn-danger:hover {
-    transform: translateY(0) scale(1.09);
-      
-  }
-  
-  .cart-quantity-input {
-      height: 34px;
-      width: 50px;
-      border-radius: 5px;
-      border: 1px solid #56CCF2;
-      background-color: #eee;
-      color: #333;
-      padding: 0;
-      text-align: center;
-      font-size: 1.2em;
-      margin-right: 25px;
-  }
-  
-  .cart-row:last-child {
-      border-bottom: 1px solid black;
-  }
-  
-  .cart-row:last-child .cart-column {
-      border: none;
-  }
-  
-  .cart-total {
-      text-align: end;
-      margin-top: 10px;
-      margin-right: 10px;
-  }
-  
-  .cart-total-title {
-      font-weight: bold;
-      font-size: 1.5em;
-      color: blanchedalmond;
-      margin-right: 20px;
-  }
-  
-  .cart-total-price {
-      color: blanchedalmond;
-      font-size: 1.1em;
-  }
-  .section-header {
     
-    font-weight: normal;
-    color: blanchedalmond;
+}
+.sauce{
+    font-size: 90px;
+    font-weight: bolder;
     text-align: center;
-    font-size: 2.5em;
+    margin-left: 500px;
+    color: beige;
+}
+
+
+.sauce-menu-container1{margin-left:100px;
+display: flex;
+    height: 300px;
+    margin-bottom: 30px;
+    
+}
+.sauce-menu-container2{margin-top:80px;
+  margin-left: 100px;
+  display: flex;
+        height: 400px;
+        
+    }
+  .card , .card2, .card4, .card6,  .card1, .card3 , .card5,.card7 , .card8 ,.card9, .card10 ,.card11{
+     
+    position: relative;
+    width: 300px;
+    height: 350px;
+  margin-left: 30px;
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+  }
+
+  .face {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .face1 {
+      box-sizing: border-box;
+      padding: 20px;
+    }
+
+      .tomato {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .rom {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .bbq {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .mari {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .pesto {
+        background-color: #fffc00;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .jain {
+          background-color: #fffc00;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      
+        .face {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .face1 {
+          box-sizing: border-box;
+          padding: 20px;
+        }
+      .face2 {
+        transition: 0.5s;
+        text-decoration: none;
+      }
+        h2 {
+          margin: 0;
+          padding: 0;
+          font-size: 10em;
+          color: black;
+          transition: 0.5s;
+         
+          z-index: 10;
+      
+        }
+      
+    a{
+        text-decoration: none;
+    }
+  
+
+  .card2:hover .face.face2 ,.card3:hover .face.face2 {
+    height: 60px;
+  }
+
+    h2 {
+      font-size: 2em;
+      
+    }
+    
+      h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 10em;
+        color: black;
+        transition: 0.5s;
+       
+        z-index: 10;
+    
+      }
+    
+  a{
+      text-decoration: none;
+  }
+
+
+
+  h2 {
+    font-size: 2em;
+    
+  }
+  
+
+  .card2:nth-child(1) .face.face2 {
+    background-image: url('images/sauce/tomato.jpg');
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .card2:nth-child(2) .face.face2 {
+    background-image: url('images/sauce/romesco.jpg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card2:nth-child(3) .face.face2 {
+    background-image: url('images/sauce/bbq sauce.jpg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card3:nth-child(1) .face.face2 {
+    background-image: url('images/sauce/Marinara-sauce1.jpg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card3:nth-child(2) .face.face2 {
+    background-image: url('images/sauce/Homemade-pesto-sauce-5.jpg');
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .card3:nth-child(3) .face.face2 {
+      background-image: url('images/sauce/jain.jpg');
+      background-size: cover;
+      border-radius: 15px;
+    }
+    
+    .veg-container{
+      margin-top: 0px;
+        display: flex;
+        height: 345px;
+        background-image: url('https://thumbs.gfycat.com/VibrantHalfBurro-size_restricted.gif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        margin-bottom: 50px;
+      
+        
+        }
+    
+    .veggie{
+        font-size: 100px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 340px;
+        color:black;
+        
+    }
+    .veg-menu-container1{margin:100px;
+      margin-top: 0px;
+      display: flex;
+            height: 300px;
+            margin-bottom: 70px;
+            
+            }
+            .veg-menu-container2{margin-left:  302px;
+              display: flex;
+                    height: 300px;
+                  
+                  
+                    
+                    }
+                    .veg-menu-container3{margin:100px;
+                      margin-top: 40px;
+                      display: flex;
+                            height: 300px;
+                            margin-bottom: 40px;
+                            
+                            }
+        
+        
+        .face {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+          .face1 {
+            box-sizing: border-box;
+            padding: 20px;
+          width: 100%;
+          display: flex;
+  
+          }
+      
+            .tomato {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .onion {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .corn {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .bell {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .baby {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .olive {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .jala {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .mush {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .paneer {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .spring {
+              background-color: #fffc00;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            .face2 {
+              transition: 0.5s;
+              text-decoration: none;
+              display: flex;
+            }
+             
+          a{
+              text-decoration: none;
+          }
+        
+      
+        .card4:hover .face.face2 {
+          height: 60px;
+        }
+        .card5:hover .face.face2 {
+          height: 60px;
+        }
+      
+      
+          h2 {
+            font-size: 2px;
+            
+          }
+          .face2 {
+            transition: 0.5s;
+            text-decoration: none;
+            display: flex;
+          }
+           
+          
+        a{
+            text-decoration: none;
+        }
+      
+    
+      .card6:hover .face.face2 {
+        height: 60px;
+      }
+    
+        h2 {
+          font-size: 2em;
+          
+        }
+        
+      
+        .card4:nth-child(1) .face.face2 {
+          background-image: url('https://www.thespruceeats.com/thmb/WVxnaDges0sGf0s00dKxV6UraLU=/2000x2000/smart/filters:no_upscale()/sweet-cherry-tomatoes-in-a-bowl-526371425-4c8c9d83dece4ec1a00d7f1618895eb3.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card4:nth-child(2) .face.face2 {
+          background-image: url('https://thumbs.dreamstime.com/b/chopped-onion-bowl-black-rustic-background-145401715.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card4:nth-child(3) .face.face2 {
+          background-image: url('https://thelemonbowl.com/wp-content/uploads/2015/07/Sweet-Corn-The-Lemon-Bowl.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card4:nth-child(4) .face.face2 {
+          background-image: url('https://www.westend61.de/images/0000475153i/glass-bowl-of-sliced-bell-peppers-on-white-wood-SARF001080.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+  
+        .card5:nth-child(1) .face.face2 {
+          background-image: url('https://static.toiimg.com/photo/84917716.cms');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card5:nth-child(2) .face.face2 {
+          background-image: url('https://colorfulplates.co/wp-content/uploads/2018/11/shutterstock_769353406-1024x741.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card6:nth-child(1) .face.face2 {
+          background-image: url('https://www.pepperbowl.com/wp-content/uploads/2020/10/how-to-cut-jalapeno-683x1024.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card6:nth-child(2) .face.face2 {
+          background-image: url('https://www.thespruceeats.com/thmb/uO_0oeZ8F2V2gia2ZCxn-WOiaAk=/1414x1414/smart/filters:no_upscale()/mushrooms-d518dac19eac484495d6134c268c9e42.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card6:nth-child(3) .face.face2 {
+          background-image: url('https://www.cookwithmanali.com/wp-content/uploads/2013/06/Homemade-Paneer-Easy-Recipe.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card6:nth-child(4) .face.face2 {
+          background-image: url('https://previews.123rf.com/images/bigacis/bigacis1610/bigacis161000144/65498026-bowl-of-chopped-spring-onions-on-wooden-table-top-view.jpg');
+          border-radius: 15px;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+  
+  
+  
+  
+  
+        .nonveg-container{
+          margin-top: 70px;
+            display: flex;
+            height: 345px;
+            background-image: url('https://i2.wp.com/klfoodie.com/wp-content/uploads/2018/09/g9pbsQ7.gif?fit=646%2C364&ssl=1');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            margin-bottom: 50px;
+          
+            
+            }
+        .nonveggie{
+            font-size: 100px;
+            font-weight: bolder;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 289px;
+            color:black;
+            
+        }
+        .nonveg-menu-container1{margin:100px;
+          margin-top: 0px;
+          display: flex;
+                height: 300px;
+                margin-bottom: 70px;
+                
+                }
+                .nonveg-menu-container2{margin-left:  302px;
+                  display: flex;
+                        height: 300px;
+                        margin-bottom: 30px;
+                        margin-top: 20px;
+                        padding-bottom: 70px;
+                        
+                        }
+                        .nonveg-menu-container3{margin:100px;
+                          margin-top: 40px;
+                          display: flex;
+                                height: 300px;
+                                margin-bottom: 100px;
+                                
+                                }
+            .card3{
+             
+              position: relative;
+              width: 300px;
+              height: 300px;
+            margin-left: 30px;
+              background: #000;
+              border-radius: 15px;
+              box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              display: flex;
+             
+              
+            }
+            .card4 {
+             
+              position: relative;
+              width: 300px;
+              height: 350px;
+            margin-left: 30px;
+              background: #000;
+              border-radius: 15px;
+              box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              display: flex;
+              
+            }
+            .card5 {
+             
+              position: relative;
+              width: 300px;
+              height: 300px;
+            margin-left: 30px;
+              background: #000;
+              border-radius: 15px;
+              box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              display: flex;
+              
+            }
+            
+            .face {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          
+              .face1 {
+                box-sizing: border-box;
+                padding: 20px;
+              width: 100%;
+      
+              }
+          
+                .bbqch {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .keem {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .tikka {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .herb {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .pepp {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .sal {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .saus {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .tan {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .teri {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .peri {
+                  background-color: #fffc00;
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+                .face2 {
+                  transition: 0.5s;
+                  text-decoration: none;
+                }
+                  h2 {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 10em;
+                    color: black;
+                    transition: 0.5s;
+                   
+                    z-index: 10;
+                
+                  }
+                
+              a{
+                  text-decoration: none;
+              }
+            
+          
+            .card7:hover .face.face2 ,.card8:hover .face.face2 ,.card9:hover .face.face2{
+              height: 60px;
+            }
+      
+              
+          
+          
+              h2 {
+                font-size: 2em;
+                
+              }
+              .face2 {
+                transition: 0.5s;
+                text-decoration: none;
+              }
+                h2 {
+                  margin: 0;
+                  padding: 0;
+                  font-size: 10em;
+                  color: black;
+                  transition: 0.5s;
+                 
+                  z-index: 10;
+              
+                }
+              
+            a{
+                text-decoration: none;
+            }
+          
+        
+           
+            h2 {
+              font-size: 2em;
+              
+            }
+            
+          
+            .card7:nth-child(1) .face.face2 {
+              background-image: url('https://www.simplyrecipes.com/thmb/7KwExJ0ZbVEmlxBaMsgmrBTi9M4=/4667x3111/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Grilled-BBQ-Chicken-LEAD-10-03fd9892eaae4ce1a8a3f4c949657cfd.jpg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card7:nth-child(2) .face.face2 {
+              background-image: url('http://www.theterracekitchen.in/wp-content/uploads/2019/07/065.-Chicken-Keema-Pizza_545x545-500x500.png');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card7:nth-child(3) .face.face2 {
+              background-image: url('https://www.eitanbernath.com/wp-content/uploads/2020/10/Chicken-Tikka-LOW-RES-1.jpg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card7:nth-child(4) .face.face2 {
+              background-image: url('https://www.jocooks.com/wp-content/uploads/2016/04/chicken-in-garlic-and-herb-sauce-1-10.jpg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+      
+            .card8:nth-child(1) .face.face2 {
+              background-image: url('https://assets.thehansindia.com/h-upload/2021/09/19/1112620-pepperoni-pizza-day.webp');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card8:nth-child(2) .face.face2 {
+              background-image: url('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/12/20/0/FNK_Whole-Grain-Salami-Mozzarella-Pizza-Cut_s4x3.jpg.rend.hgtvcom.616.462.suffix/1483737099706.jpeg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card9:nth-child(1) .face.face2 {
+              background-image: url('https://d3gy1em549lxx2.cloudfront.net/62503792-1e68-44cf-bedf-918e9eaf4c82.JPG');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card9:nth-child(2) .face.face2 {
+              background-image: url('https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Tandoori-Chicken-1.jpg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card9:nth-child(3) .face.face2 {
+              background-image: url('https://www.tasteandtellblog.com/wp-content/uploads/2020/10/Teriyaki-Chicken-Pizza-3.jpg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .card9:nth-child(4) .face.face2 {
+              background-image: url('https://foodiesterminal.com/wp-content/uploads/2019/08/just-like-nandos-peri-peri-chicken.jpg');
+              border-radius: 15px;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            .cheese-container{
+              margin-top: 0px;
+                display: flex;
+                height: 300px;
+                background-image: url('https://i.pinimg.com/originals/89/0f/18/890f187bbdd200e4c142f8657eed9878.gif');
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-position-y: center;
+                margin-bottom: 50px;
+                padding-top: 60px;
+                
+            }
+            .cheese-heading{
+                font-size: 100px;
+                font-weight: bolder;
+                text-align: center;
+                margin-left: 450px;
+                color: black;
+            }
+            
+            .cheese-menu-container1{margin-left:100px;
+              display: flex;
+                    height: 300px;
+                    margin-bottom: 30px;
+                    
+                }
+                .cheese-menu-container2{margin-top:80px;
+                  margin-left: 100px;
+                  display: flex;
+                        height: 400px;
+                        
+                    }
+                  
+                  .face {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+                
+                    .face1 {
+                      box-sizing: border-box;
+                      padding: 20px;
+                    }
+                
+                      .addtocart {
+                        background-color: #fffc00;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      }
+                      
+                      
+                      
+                        .face {
+                          position: absolute;
+                          bottom: 0;
+                          left: 0;
+                          width: 100%;
+                          height: 100%;
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                        }
+                        .face1 {
+                          box-sizing: border-box;
+                          padding: 20px;
+                        }
+                      .face2 {
+                        transition: 0.5s;
+                        text-decoration: none;
+                      }
+                        h2 {
+                          margin: 0;
+                          padding: 0;
+                          font-size: 10em;
+                          color: black;
+                          transition: 0.5s;
+                         
+                          z-index: 10;
+                      
+                        }
+                      
+                    a{
+                        text-decoration: none;
+                    }
+                  
+                
+                  .card10:hover .face.face2 {
+                    height: 60px;
+                  }
+                
+                    h2 {
+                      font-size: 2em;
+                      
+                    }
+                    .face2 {
+                      transition: 0.5s;
+                      text-decoration: none;
+                    }
+                      h2 {
+                        margin: 0;
+                        padding: 0;
+                        font-size: 10em;
+                        color: black;
+                        transition: 0.5s;
+                       
+                        z-index: 10;
+                    
+                      }
+                    
+                  a{
+                      text-decoration: none;
+                  }
+                
+              
+                .card11:hover .face.face2 {
+                  height: 60px;
+                }
+              
+                  h2 {
+                    font-size: 2em;
+                    
+                  }
+                  
+                
+                  .card10:nth-child(1) .face.face2 {
+                    background-image: url('https://www.alphafoodie.com/wp-content/uploads/2020/08/Mozzarella-cheese-500x500.jpeg');
+                    border-radius: 15px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                  }
+                  .card10:nth-child(2) .face.face2 {
+                    background-image: url('https://www.verywellfit.com/thmb/YJSdLdl4NrxVmL_JaKb2Dktf9PI=/2669x2002/smart/filters:no_upscale()/cheddar-cheese-crop-3fdf5ad3229e4748bbc0b8acdc442dcd.jpg');
+                    background-size: cover;
+                    border-radius: 15px;
+                  }
+                  .card10:nth-child(3) .face.face2 {
+                    background-image: url('https://d2cbg94ubxgsnp.cloudfront.net/Pictures/480xAny/3/9/4/89394_parmesan_shutterstock_152999969_630m.jpg');
+                    background-size: cover;
+                    border-radius: 15px;
+                  }
+                  .card11:nth-child(1) .face.face2 {
+                    background-image: url('https://www.alphafoodie.com/wp-content/uploads/2020/07/Goat-Cheese-Square-Photo.jpeg');
+                    background-size: cover;
+                    border-radius: 15px;
+                  }
+                  .card11:nth-child(2) .face.face2 {
+                    background-image: url('https://www.renardscheese.com/wp-content/uploads/img_4638-scaled.jpg');
+                    background-size: cover;
+                    border-radius: 15px;
+                  }
+                  .card11:nth-child(3) .face.face2 {
+                      background-image: url('ricotta-cheese-.jpg');
+                      background-size: cover;
+                      border-radius: 15px;
+                    }
+                  
+                
+              
+            
+          
+        
+      
+    
+  
+
+
+/* **********************DISPLAY CART SECTION STARTS************************** */
+.cart{
+  margin-left: 300px;
+ }    
+ 
+ .cart-header {
+   font-weight: bold;
+   font-size: 1.25em;
+   color: blanchedalmond;
+  
+}
+
+.cart-column {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid blanchedalmond;
+   margin-right: 1.5em;
+   padding-bottom: 10px;
+   margin-top: 10px;
+}
+
+.cart-row {
+   display: flex;
+}
+
+.cart-item {
+   width: 45%;
+}
+
+.cart-price {
+   width: 20%;
+   font-size: 1.2em;
+   color:blanchedalmond;
+}
+
+.cart-quantity {
+   width: 35%;
+}
+
+.cart-item-title {
+   color:blanchedalmond;
+   margin-left: .5em;
+   font-size: 1.2em;
+   
+}
+
+.cart-item-image {
+   width: 75px;
+   height: auto;
+   border-radius: 10px;
+}
+
+.btn-danger {
+   color:yellow;
+   background-color: black;
+   border: mintcream solid;
+   border-radius: .3em;
+   font-weight: bold;
+   cursor: pointer;
+   font-family: 'Gideon Roman' , cursive;
+   padding: 4px;
+}
+
+.btn-danger:hover {
+ transform: translateY(0) scale(1.09);
+   
+}
+
+.cart-quantity-input {
+   height: 34px;
+   width: 50px;
+   border-radius: 5px;
+   border: 1px solid #56CCF2;
+   background-color: #eee;
+   color: #333;
+   padding: 0;
+   text-align: center;
+   font-size: 1.2em;
+   margin-right: 25px;
+}
+
+.cart-row:last-child {
+   border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+   border: none;
+}
+
+.cart-total {
+   text-align: end;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+.cart-total-title {
+   font-weight: bold;
+   font-size: 1.5em;
+   color: blanchedalmond;
+   margin-right: 20px;
+}
+
+.cart-total-price {
+   color: blanchedalmond;
+   font-size: 1.1em;
+}
+.section-header {
+ 
+ font-weight: normal;
+ color: blanchedalmond;
+ text-align: center;
+ font-size: 2.5em;
 }
 .btn-purchase {
-  display: block;
-  margin: 40px auto 80px auto;
-  font-size: 1.75em;
-  text-decoration: none;
-  background-color: black;
-  color: yellow;
-  font-family:  'Gideon Roman', cursive;
-  border: mintcream solid;
-  border-width: 3px;
-  cursor: pointer;
-  padding: 5px;
+display: block;
+margin: 40px auto 80px auto;
+font-size: 1.75em;
+text-decoration: none;
+background-color: black;
+color: yellow;
+font-family:  'Gideon Roman', cursive;
+border: mintcream solid;
+border-width: 3px;
+cursor: pointer;
+padding: 5px;
 }
 .btn-purchase:hover{
-  transform: translateY(0) scale(1.1);
+transform: translateY(0) scale(1.1);
 }
+
+/* **********************DISPLAY CART SECTION ENDS************************** */

@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="homepage.css">
-    <link href="https://fonts.googleapis.com/css2?family=Faustina&display=swap" rel="stylesheet">
+    <title>Crusts</title>
+    <link rel="stylesheet" href="crust.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
     <style>
         body,
         h1,
@@ -16,44 +16,958 @@
         h4,
         h5,
         h6 {
-            font-family: 'Faustina', serif;
+            font-family: 'Gideon Roman', cursive;
         }
     </style>
+
 </head>
 
 <body>
-    <section class="cust-container">
-        <div class="choose-crust" href="crust.html">
-            <h1 id="cust-heading"><a href="crust.html" class="crust">Crust</a></h1>
-            <a href="crust.html"><img
-                    src="https://www.crustkingdom.com/wp-content/uploads/2020/02/pizza-crust-large.jpg"
-                    class="crustimg"></a>
-        </div>
-        <div class="choose-sauce">
-            <h1 id="cust-heading"><a href="sauces.html" class="sauces">Sauces</a></h1>
-            <a href="sauces.html" .html"><img src="https://www.mypricechopper.com/Frontend/Media/Recipes/PizzaSauce.jpg"
-                    class="sauceimg"></a>
+    <nav class="navbar">
+        <div>
+            <a class="nav1" href="menuready.html">ORDER OUR PREMADE PIZZAS</a>
+
         </div>
 
-        <div class="choose-topping">
-            <h1 class="h1-top"><a href="toppings.html" class="topping">Toppings</a></h1>
-            <a href="toppings.html">
-                <img src="https://us.123rf.com/450wm/freeskyline/freeskyline2004/freeskyline200400042/144064352-pizza-toppings-ingredients-for-pizza-on-white-background.jpg?ver=6"
-                    class="toppimg">
+        <div class="cart">
+            <a class="font">
+
+                SCROLL DOWN TO SEE YOUR CART
             </a>
         </div>
-
-        <div class="choose-cheese">
-            <h1 id="cust-heading"><a href="cheese.html" class="cheese">Cheese</a></h1>
-            <a href="cheese.html">
-                <img src="https://5.imimg.com/data5/AO/WJ/MY-11111283/pizza-cheese-500x500.jpg" class="cheeseimg">
-            </a>
+    </nav>
+    <section class="classic-container">
+        <div class="classic-crust">
+            <h1 class="classic">
+                Classic Crusts
+            </h1>
         </div>
-        <div class="end">
+    </section>
+    <h2 class="line">Pick your choice of regular crusts at @55/- each</h2>
+    <section class="class-menu-container">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
 
+                        </button>
+                    </div>
+                    <span class="shop-item-price">55</span>
+                    <h2 class="shop-item-title regular">REGULAR CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>1</h2>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price" id="price">55</span>
+                    <h2 class="shop-item-title thin" id="add1">THIN CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>2</h2>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">55</span>
+                    <h2 class="shop-item-title multigrain">MULTIGRAIN CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>3</h2>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">55</span>
+                    <h2 class="shop-item-title whole">WHOLE WHEAT CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>4</h2>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">55</span>
+                    <h2 class="shop-item-title cheese">CHEESE BURST CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>5</h2>
+            </div>
         </div>
     </section>
 
+
+    <section class="gourmet-container">
+        <div class="gourmet-crust">
+            <h1 class="gourmet">
+                Gourmet Crusts
+            </h1>
+        </div>
+    </section>
+    <h2 class="line">Grab any gourmet crust @70/-</h2>
+    <section class="gour-menu-container">
+        <div class="card1">
+            <div class="face face1">
+                <div class="content1">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">65</span>
+                    <h2 class="shop-item-title garlic">GARLIC INFUSED CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>1</h2>
+
+            </div>
+        </div>
+        <div class="card1">
+            <div class="face face1">
+                <div class="content1">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">65</span>
+                    <h2 class="shop-item-title wood">WOODFIRED CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>2</h2>
+
+            </div>
+        </div>
+        <div class="card1">
+            <div class="face face1">
+                <div class="content1">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">65</span>
+                    <h2 class="shop-item-title ny">NY GOURMET CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>3</h2>
+
+            </div>
+        </div>
+        <div class="card1">
+            <div class="face face1">
+                <div class="content1">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">65</span>
+                    <h2 class="shop-item-title pan">PAN CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>4</h2>
+
+            </div>
+        </div>
+        <div class="card1">
+            <div class="face face1">
+                <div class="content1">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">65</span>
+                    <h2 class="shop-item-title nea">NEAPOLITAN CRUST</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>5</h2>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- *********************************SAUCE SECTION STARTS**************************************** -->
+    <section class="sauce-container">
+        <div class="sauces">
+            <h1 class="sauce">
+                Sauces
+            </h1>
+        </div>
+    </section>
+
+    <h2 class="line">Get your fingerlicking sauce just @45/- each</h2>
+    <section class="sauce-menu-container1">
+        <div class="card2">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+
+                    <h2 class="shop-item-title tomato">TOMATO BASIL</h2>
+                    <span class="shop-item-price">45</span>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>1</h2>
+
+            </div>
+            <h4>Calorie count: 78 kcal</h4>
+        </div>
+
+        <div class="card2">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">45</span>
+                    <h2 class="shop-item-title rom">ROMESCO</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>2</h2>
+
+            </div>
+            <h4>Calorie count: 140 kcal</h4>
+        </div>
+
+        <div class="card2">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">45</span>
+                    <h2 class="shop-item-title bbq">BARBEQUE</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>3</h2>
+            </div>
+            <h4>Calorie count: 90 kcal</h4>
+        </div>
+    </section>
+    <section class="sauce-menu-container2">
+        <div class="card3">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">45</span>
+                    <h2 class="shop-item-title mari">MARINARA</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>4</h2>
+            </div>
+            <h4>Calorie count: 100 kcal</h4>
+        </div>
+
+        <div class="card3">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">45</span>
+                    <h2 class="shop-item-title pesto">PESTO</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>5</h2>
+            </div>
+            <h4>Calorie count: 200 kcal</h4>
+        </div>
+
+        <div class="card3">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">45</span>
+                    <h2 class="shop-item-title jain">JAIN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>6</h2>
+            </div>
+            <h4>Calorie count: 110 kcal</h4>
+        </div>
+    </section>
+    </section>
+
+    <!-- *****************************SAUCES SECTION ENDS********************************************** -->
+
+    <!-- *****************************TOPPINGS SECTION STARTS****************************************** -->
+    <section class="veg-container">
+        <div class="veg">
+            <h1 class="veggie">
+                Veg Toppings
+            </h1>
+        </div>
+    </section>
+
+
+
+    <!---veg 1 starts--->//
+    <h2 class="line">Scrumptious veggie toppings @20/- each</h2>
+    <section class="veg-menu-container1">
+        <div class="card4">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+
+                    <h2 class=" shop-item-title tomato">CHERRY TOMATO</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>1</h2>
+
+            </div>
+            <h4> Calories count: 18 kcal</h4>
+        </div>
+
+        <div class="card4">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title onion">ONION</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>2</h2>
+
+            </div>
+            <h4> Calories count: 45 kcal</h4>
+        </div>
+
+        <div class="card4">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title corn">AMERICAN CORN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>3</h2>
+            </div>
+            <h4> Calories count: 72 kcal</h4>
+        </div>
+
+        <div class="card4">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title bell">BELL PEPPERS</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>4</h2>
+            </div>
+            <h4> Calories count: 37 kcal</h4>
+        </div>
+    </section>
+
+    //
+    <!---veg 1 ends--->//
+
+
+    <!---veg 2 starts--->
+
+    <section class="veg-menu-container2">
+        <div class="card5">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title baby">BABY CORN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>5</h2>
+
+            </div>
+            <h4> Calories count: 37 kcal</h4>
+        </div>
+
+        <div class="card5">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title olive">OLIVES</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>6</h2>
+
+            </div>
+            <h4> Calories count: 39 kcal</h4>
+        </div>
+    </section>
+
+    //
+    <!---veg 2 ends--->//
+
+    <section class="veg-menu-container3">
+        <div class="card6">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title jala">JALAPENOS</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>7</h2>
+
+            </div>
+            <h4> Calories count: 41 kcal</h4>
+        </div>
+
+        <div class="card6">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+                    <h2 class="shop-item-title mush">MUSHROOMS</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>8</h2>
+
+            </div>
+            <h4> Calories count: 84 kcal</h4>
+        </div>
+
+        <div class="card6">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+
+                    <h2 class="shop-item-title paneer">PANEER</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>9</h2>
+            </div>
+            <h4> Calories count: 220 kcal</h4>
+        </div>
+
+        <div class="card6">
+            <div class="face face1">
+
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">20</span>
+
+                    <h2 class="shop-item-title spring">SPRING ONION</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>10</h2>
+            </div>
+            <h4> Calories count: 32 kcal</h4>
+        </div>
+    </section>
+
+    <section class="nonveg-container">
+        <div class="nonveg">
+            <h1 class="nonveggie">
+                Non Veg Toppings
+            </h1>
+        </div>
+    </section>
+    <!---nonveg 1 starts--->
+    <h2 class="line">Mouthwatering non veg toppings @30/- each</h2>
+    <section class="nonveg-menu-container1">
+        <div class="card7">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+
+
+                    <h2 class="shop-item-title bbqch">BBQ CHICKEN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>1</h2>
+
+            </div>
+            <h4> Calories count: 367 kcal</h4>
+        </div>
+
+        <div class="card7">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title keem">KEEMA CHICKEN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>2</h2>
+
+            </div>
+            <h4> Calories count: 260 kcal</h4>
+        </div>
+
+        <div class="card7">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title tikka">CHICKEN TIKKA</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>3</h2>
+            </div>
+            <h4> Calories count: 202 kcal</h4>
+        </div>
+
+        <div class="card7">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title herb">HERBED CHICKEN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>4</h2>
+            </div>
+            <h4> Calories count: 165 kcal</h4>
+        </div>
+    </section>
+
+    //
+    <!---nonveg 1 ends--->
+
+
+    <!---nonveg 2 starts--->
+
+    <section class="nonveg-menu-container2">
+        <div class="card8">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title pepp">PEPPERONI</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>5</h2>
+
+            </div>
+            <h4> Calories count: 189 kcal</h4>
+        </div>
+
+        <div class="card8">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title sal">SALAMI</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>6</h2>
+
+            </div>
+            <h4> Calories count: 312 kcal</h4>
+        </div>
+    </section>
+
+
+    <!---nonveg 2 ends--->
+
+    <section class="nonveg-menu-container3">
+        <div class="card9">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title saus">CHICKEN SAUSAGE</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>7</h2>
+
+            </div>
+            <h4> Calories count: 427 kcal</h4>
+        </div>
+
+        <div class="card9">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title tan">TANDOORI CHICKEN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>8</h2>
+
+            </div>
+            <h4> Calories count: 320 kcal</h4>
+        </div>
+
+        <div class="card9">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title teri">CHICKEN TERIYAKI</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>9</h2>
+            </div>
+            <h4> Calories count: 252 kcal</h4>
+        </div>
+
+        <div class="card9">
+            <div class="face face1">
+                <div class="content">
+                    <div class="addto">
+                        <button class="btn btn-primary shop-item-button add" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                    <span class="shop-item-price">30</span>
+                    <h2 class="shop-item-title peri">PERI PERI CHICKEN</h2>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>10</h2>
+            </div>
+            <h4> Calories count: 243 kcal</h4>
+        </div>
+    </section>
+
+    <!-- *****************************TOPPINGS SECTION ENDS****************************************** -->
+
+    <!-- *****************************CHEESE SECTION STARTS****************************************** -->
+
+    <section class="cheese-container">
+        <div class="cheeses">
+            <h1 class="cheese-heading">
+                Cheese
+            </h1>
+        </div>
+    </section>
+    <h2 class="line">Any cheese just @70/- </h2>
+    <section class="cheese-menu-container1">
+
+        <div class="card10">
+            <div class="face face1">
+                <div class="content">
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">MOZZARELLA</h2>
+                    <div class="addto">
+                        <button class="add btn btn-primary shop-item-button" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>1</h2>
+
+            </div>
+        </div>
+
+        <div class="card10">
+            <div class="face face1">
+                <div class="content">
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">CHEDDAR</h2>
+                    <div class="addto">
+                        <button class="add btn btn-primary shop-item-button" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>2</h2>
+
+            </div>
+        </div>
+
+        <div class="card10">
+            <div class="face face1">
+                <div class="content">
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">PARMESAN</h2>
+                    <div class="addto">
+                        <button class="add btn btn-primary shop-item-button" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>3</h2>
+            </div>
+        </div>
+    </section>
+    <section class="cheese-menu-container2">
+        <div class="card11">
+            <div class="face face1">
+                <div class="content">
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">GOAT CHEESE</h2>
+                    <div class="addto">
+                        <button class="add btn btn-primary shop-item-button" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>4</h2>
+            </div>
+        </div>
+
+        <div class="card11">
+            <div class="face face1">
+                <div class="content">
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">CHIPOTLE CHEESE</h2>
+                    <div class="addto">
+                        <button class="add btn btn-primary shop-item-button" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>5</h2>
+            </div>
+        </div>
+
+        <div class="card11">
+            <div class="face face1">
+                <div class="content">
+                    <span class="shop-item-price">70</span>
+                    <h2 class="shop-item-title addtocart">RICOTTA PROVOLONE</h2>
+                    <div class="addto">
+                        <button class="add btn btn-primary shop-item-button" onclick="added()">Add to cart!
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="face face2">
+
+                <h2>6</h2>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <script src="add.js"></script>
 </body>
 
 </html>
