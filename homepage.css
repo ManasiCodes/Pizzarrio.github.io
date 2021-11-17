@@ -864,6 +864,11 @@ padding: 5px;
 .btn-purchase:hover{
 transform: translateY(0) scale(1.1);
 }
-
+.cart{
+  
+    padding-bottom: 0px;
+    font-size: 20px;
+margin-left: 300px;
+}
 /* **********************DISPLAY CART SECTION ENDS************************** */
                    
