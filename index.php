@@ -1,4 +1,7 @@
 <?php
+if(isset($_POST['name']) ){
+
+
 $server= "localhost";
 
 $username = "root";
@@ -24,4 +27,140 @@ if(!$con)
 '$phone', '$message', '$crust', '$sauce', '$cheese', '$toppings', CURRENT_TIMESTAMP);";
 
 echo $sql;
+
+if($con->query($sql) == TRUE){
+    echo "successfully inserted";
+}
+else{
+    echo "ERROR : $sql <br> $con->error";
+}
+$con->close();
+}
 ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Gideon Roman', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <nav class="navbar">
+            <a class="nav1" href="index.html">HOME</a>
+
+
+            <a class="nav4" href="contact.html">CONTACT</a>
+
+
+        </nav>
+
+    </nav>
+    <section>
+
+        <div class="listing-hero">
+            <div class="hero-heading">
+                <div class="hero-large">Contact Us.</div>
+                <div class="hero-text"> <i>Thank you for trusting our services. We hope to serve you better next time
+                        :)
+                        For any complaints please feel free to contact us at +91 1234567890.We'll get back to you
+                        immediately!</i> </div>
+            </div>
+        </div>
+
+        <div class="container-contact">
+            <div class="wrap-contact">
+
+                <form name="contact" class="contact-form validate-form" method="post" action="index.php">
+
+                    <div class="wrap-input validate-input" data-validate="Please enter your name">
+                        <input class="input" type="text" name="name" placeholder="Full Name">
+                    </div>
+
+                    <div class="wrap-input validate-input" data-validate="Please enter your email">
+                        <input class="input" type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="wrap-input validate-input" data-validate="Please enter your phone number">
+                        <input class="input" type="phone" name="phone" placeholder="Phone">
+                    </div>
+                    <div class="wrap-input validate-input" data-validate="Please enter your message">
+                        <textarea class="input" type="text" name="message" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="crust">
+
+                        <h2>How well did you like the crust?</h2>
+                        <input type="radio" value="5" name="crust">5
+                        <input type="radio" value="4" name="crust">4
+                        <input type="radio" value="3" name="crust">3
+                        <input type="radio" value="2" name="crust">2
+                        <input type="radio" value="1" name="crust">1
+
+                    </div>
+                    <div class="sauce">
+                        <h2>How well did you like the sauce?</h2>
+                        <input type="radio" name="sauce" value="5">5
+                        <input type="radio" name="sauce" value="4">4
+                        <input type="radio" name="sauce" value="3">3
+                        <input type="radio" name="sauce" value="2">2
+                        <input type="radio" name="sauce" value="1">1
+
+                    </div>
+                    <div class="cheese">
+                        <h2>How well did you like the cheese?</h2>
+                        <input type="radio" name="cheese" value="5">5
+                        <input type="radio" name="cheese" value="4">4
+                        <input type="radio" name="cheese" value="3">3
+                        <input type="radio" name="cheese" value="2">2
+                        <input type="radio" name="cheese" value="1">1
+
+                    </div>
+                    <div class="toppings">
+                        <h2>How well did you like the toppings?</h2>
+                        <input type="radio" name="toppings" value="5">5
+                        <input type="radio" name="toppings" value="4">4
+                        <input type="radio" name="toppings" value="3">3
+                        <input type="radio" name="toppings" value="2">2
+                        <input type="radio" name="toppings" value="1">1
+
+                    </div>
+
+
+                    <div class="container-contact-form-btn">
+                        <button type="submit" class="contact-form-btn">
+                            <span>Send</span>
+                        </button>
+                    </div>
+
+
+
+                </form>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
