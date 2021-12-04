@@ -22,7 +22,7 @@ if(!$con)
  $sauce=$_POST['sauce'];
  $cheese=$_POST['cheese'];
  $toppings=$_POST['toppings'];
- $sql = "INSERT INTO `pizzaregisteration`.`pizzario` ( `name`, `email`, `phone`, `message`, `crust`, 
+ $sql = "INSERT INTO `pizzarrio`.`pizzario` ( `name`, `email`, `phone`, `message`, `crust`, 
 `sauce`, `cheese`, `toppings`, `date`) VALUES ('$name', '$email', 
 '$phone', '$message', '$crust', '$sauce', '$cheese', '$toppings', CURRENT_TIMESTAMP);";
 
