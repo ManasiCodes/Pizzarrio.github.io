@@ -104,6 +104,7 @@ $con->close();
                     <div class="wrap-input validate-input" data-validate="Please enter your message">
                         <textarea class="input" type="text" name="message" placeholder="Your Message"></textarea>
                     </div>
+         <div id="rating-container">
                     <div class="crust">
 
                         <h2>How well did you like the crust?</h2>
@@ -141,7 +142,7 @@ $con->close();
                         <input type="radio" name="toppings" value="1">1
 
                     </div>
-
+    </div>
 
                     <div class="container-contact-form-btn">
                         <button type="submit" class="contact-form-btn">
